@@ -1,0 +1,553 @@
+group_id,group_name,group_level,dataframe,indicator_id,mean,std,min,max,n_observations,n_experiments,system,product_mix,automation_degree,division_type,num_stations,system_type,automation_level,mean_normalized
+G01,By System,system_01,df_process,IND01,0.09,0.1,0.0,2.43,10417.0,24,system_01,,,,,,,0.54
+G01,By System,system_01,df_resource,IND02,36.69,21.94,3.1,85.95,72.0,24,system_01,,,,,,,0.56
+G01,By System,system_01,df_process,IND03,11.72,13.09,0.11,320.98,10417.0,24,system_01,,,,,,,0.52
+G01,By System,system_01,df_product,IND04,746.83,753.83,144.0,4735.0,960.0,24,system_01,,,,,,,0.15
+G01,By System,system_01,df_process,IND05,1976.25,1651.48,0.0,9565.0,10417.0,24,system_01,,,,,,,0.46
+G01,By System,system_01,df_process,IND06,73.91,86.33,0.0,336.0,10417.0,24,system_01,,,,,,,0.52
+G01,By System,system_02,df_process,IND01,0.09,0.05,0.0,0.2,10500.0,24,system_02,,,,,,,0.44
+G01,By System,system_02,df_resource,IND02,26.81,7.67,16.62,46.0,96.0,24,system_02,,,,,,,0.29
+G01,By System,system_02,df_process,IND03,11.32,6.88,0.11,25.85,10500.0,24,system_02,,,,,,,0.43
+G01,By System,system_02,df_product,IND04,314.14,99.11,147.0,645.0,960.0,24,system_02,,,,,,,0.01
+G01,By System,system_02,df_process,IND05,1971.57,1650.93,0.0,9565.0,10500.0,24,system_02,,,,,,,0.44
+G01,By System,system_02,df_process,IND06,73.75,86.29,0.0,336.0,10500.0,24,system_02,,,,,,,0.51
+G01,By System,system_03,df_process,IND01,0.09,0.11,0.0,3.93,10433.0,24,system_03,,,,,,,0.52
+G01,By System,system_03,df_resource,IND02,23.46,16.45,1.95,79.52,112.0,24,system_03,,,,,,,0.21
+G01,By System,system_03,df_process,IND03,11.63,14.22,0.11,518.98,10433.0,24,system_03,,,,,,,0.5
+G01,By System,system_03,df_product,IND04,970.1,1329.26,167.0,7404.0,960.0,24,system_03,,,,,,,0.22
+G01,By System,system_03,df_process,IND05,1978.46,1653.97,0.0,9565.0,10433.0,24,system_03,,,,,,,0.47
+G01,By System,system_03,df_process,IND06,74.02,86.45,0.0,336.0,10433.0,24,system_03,,,,,,,0.53
+G01,By System,system_05,df_process,IND01,0.09,0.05,0.0,0.2,10500.0,24,system_05,,,,,,,0.44
+G01,By System,system_05,df_resource,IND02,21.44,9.18,8.45,46.0,120.0,24,system_05,,,,,,,0.15
+G01,By System,system_05,df_process,IND03,11.32,6.88,0.11,25.85,10500.0,24,system_05,,,,,,,0.43
+G01,By System,system_05,df_product,IND04,310.63,94.2,144.0,549.0,960.0,24,system_05,,,,,,,0.01
+G01,By System,system_05,df_process,IND05,1971.57,1650.93,0.0,9565.0,10500.0,24,system_05,,,,,,,0.44
+G01,By System,system_05,df_process,IND06,73.75,86.29,0.0,336.0,10500.0,24,system_05,,,,,,,0.51
+G02,By Variability (Product Mix),balanced,df_process,IND01,0.08,0.06,0.0,2.39,6560.0,16,,balanced,,,,,,0.42
+G02,By Variability (Product Mix),balanced,df_resource,IND02,23.48,12.76,3.88,55.81,68.0,16,,balanced,,,,,,0.21
+G02,By Variability (Product Mix),balanced,df_process,IND03,11.25,8.51,0.11,315.15,6560.0,16,,balanced,,,,,,0.42
+G02,By Variability (Product Mix),balanced,df_product,IND04,385.45,239.9,144.0,1818.0,640.0,16,,balanced,,,,,,0.04
+G02,By Variability (Product Mix),balanced,df_process,IND05,1987.68,1717.35,0.0,9565.0,6560.0,16,,balanced,,,,,,0.52
+G02,By Variability (Product Mix),balanced,df_process,IND06,74.0,87.51,0.0,336.0,6560.0,16,,balanced,,,,,,0.53
+G02,By Variability (Product Mix),front,df_process,IND01,0.08,0.1,0.0,3.93,8320.0,16,,front,,,,,,0.37
+G02,By Variability (Product Mix),front,df_resource,IND02,29.22,14.55,7.74,70.76,68.0,16,,front,,,,,,0.36
+G02,By Variability (Product Mix),front,df_process,IND03,11.03,12.73,0.11,518.98,8320.0,16,,front,,,,,,0.37
+G02,By Variability (Product Mix),front,df_product,IND04,540.23,458.82,144.0,2069.0,640.0,16,,front,,,,,,0.09
+G02,By Variability (Product Mix),front,df_process,IND05,1947.15,1396.6,0.0,4870.0,8320.0,16,,front,,,,,,0.32
+G02,By Variability (Product Mix),front,df_process,IND06,75.05,82.02,0.0,280.4,8320.0,16,,front,,,,,,0.62
+G02,By Variability (Product Mix),hd,df_process,IND01,0.09,0.11,0.0,3.93,10090.0,16,,hd,,,,,,0.56
+G02,By Variability (Product Mix),hd,df_resource,IND02,37.94,17.96,12.38,85.95,68.0,16,,hd,,,,,,0.59
+G02,By Variability (Product Mix),hd,df_process,IND03,11.81,14.47,0.11,518.98,10090.0,16,,hd,,,,,,0.54
+G02,By Variability (Product Mix),hd,df_product,IND04,1515.41,1599.51,238.0,7404.0,640.0,16,,hd,,,,,,0.39
+G02,By Variability (Product Mix),hd,df_process,IND05,2023.42,1472.95,365.0,4870.0,10090.0,16,,hd,,,,,,0.7
+G02,By Variability (Product Mix),hd,df_process,IND06,78.82,86.15,2.44,280.4,10090.0,16,,hd,,,,,,0.94
+G02,By Variability (Product Mix),mixed,df_process,IND01,0.08,0.06,0.0,2.39,5360.0,16,,mixed,,,,,,0.33
+G02,By Variability (Product Mix),mixed,df_resource,IND02,19.74,10.72,3.1,52.19,64.0,16,,mixed,,,,,,0.11
+G02,By Variability (Product Mix),mixed,df_process,IND03,10.89,7.2,0.11,315.15,5360.0,16,,mixed,,,,,,0.34
+G02,By Variability (Product Mix),mixed,df_product,IND04,319.35,126.09,144.0,1785.0,640.0,16,,mixed,,,,,,0.02
+G02,By Variability (Product Mix),mixed,df_process,IND05,1883.16,1682.04,0.0,9565.0,5360.0,16,,mixed,,,,,,0.0
+G02,By Variability (Product Mix),mixed,df_process,IND06,67.67,82.42,0.0,336.0,5360.0,16,,mixed,,,,,,0.0
+G02,By Variability (Product Mix),rear,df_process,IND01,0.09,0.07,0.0,2.39,5440.0,16,,rear,,,,,,0.68
+G02,By Variability (Product Mix),rear,df_resource,IND02,22.67,12.52,6.19,58.71,64.0,16,,rear,,,,,,0.18
+G02,By Variability (Product Mix),rear,df_process,IND03,12.32,8.59,0.11,315.15,5440.0,16,,rear,,,,,,0.65
+G02,By Variability (Product Mix),rear,df_product,IND04,363.21,207.41,168.0,1792.0,640.0,16,,rear,,,,,,0.03
+G02,By Variability (Product Mix),rear,df_process,IND05,2084.88,2117.22,365.0,9565.0,5440.0,16,,rear,,,,,,1.0
+G02,By Variability (Product Mix),rear,df_process,IND06,74.57,96.93,2.44,336.0,5440.0,16,,rear,,,,,,0.58
+G02,By Variability (Product Mix),sa_rd,df_process,IND01,0.09,0.05,0.0,0.2,6080.0,16,,sa_rd,,,,,,0.53
+G02,By Variability (Product Mix),sa_rd,df_resource,IND02,22.62,13.75,1.95,56.02,68.0,16,,sa_rd,,,,,,0.18
+G02,By Variability (Product Mix),sa_rd,df_process,IND03,11.69,6.59,0.11,25.85,6080.0,16,,sa_rd,,,,,,0.51
+G02,By Variability (Product Mix),sa_rd,df_product,IND04,388.89,255.63,144.0,1658.0,640.0,16,,sa_rd,,,,,,0.04
+G02,By Variability (Product Mix),sa_rd,df_process,IND05,1897.92,1672.17,0.0,9565.0,6080.0,16,,sa_rd,,,,,,0.07
+G02,By Variability (Product Mix),sa_rd,df_process,IND06,68.66,83.83,0.0,336.0,6080.0,16,,sa_rd,,,,,,0.08
+G03,By Automation Degree,0.0,df_process,IND01,0.1,0.09,0.0,3.93,10441.0,24,,,0.0,,,,,
+G03,By Automation Degree,0.0,df_resource,IND02,30.4,17.28,2.81,85.43,100.0,24,,,0.0,,,,,
+G03,By Automation Degree,0.0,df_process,IND03,13.45,12.36,0.11,518.87,10441.0,24,,,0.0,,,,,
+G03,By Automation Degree,0.0,df_product,IND04,644.79,834.2,159.0,6004.0,960.0,24,,,0.0,,,,,
+G03,By Automation Degree,0.0,df_process,IND05,1975.73,1651.98,0.0,9565.0,10441.0,24,,,0.0,,,,,
+G03,By Automation Degree,0.0,df_process,IND06,73.9,86.35,0.0,336.0,10441.0,24,,,0.0,,,,,
+G03,By Automation Degree,0.29,df_process,IND01,0.09,0.12,0.0,3.93,2477.0,4,,,0.29,,,,,
+G03,By Automation Degree,0.29,df_resource,IND02,39.7,18.25,19.81,85.95,17.0,4,,,0.29,,,,,
+G03,By Automation Degree,0.29,df_process,IND03,12.59,15.91,0.11,518.98,2477.0,4,,,0.29,,,,,
+G03,By Automation Degree,0.29,df_product,IND04,1813.69,1919.3,272.0,7404.0,160.0,4,,,0.29,,,,,
+G03,By Automation Degree,0.29,df_process,IND05,2039.91,1475.15,365.0,4870.0,2477.0,4,,,0.29,,,,,
+G03,By Automation Degree,0.29,df_process,IND06,79.52,86.41,2.44,280.4,2477.0,4,,,0.29,,,,,
+G03,By Automation Degree,0.33,df_process,IND01,0.09,0.12,0.0,3.93,2080.0,4,,,0.33,,,,,
+G03,By Automation Degree,0.33,df_resource,IND02,30.59,15.35,12.38,64.52,17.0,4,,,0.33,,,,,
+G03,By Automation Degree,0.33,df_process,IND03,11.55,15.27,0.11,518.98,2080.0,4,,,0.33,,,,,
+G03,By Automation Degree,0.33,df_product,IND04,559.74,492.6,144.0,2040.0,160.0,4,,,0.33,,,,,
+G03,By Automation Degree,0.33,df_process,IND05,1947.15,1396.85,0.0,4870.0,2080.0,4,,,0.33,,,,,
+G03,By Automation Degree,0.33,df_process,IND06,75.05,82.04,0.0,280.4,2080.0,4,,,0.33,,,,,
+G03,By Automation Degree,0.4,df_process,IND01,0.09,0.08,0.0,2.39,1640.0,4,,,0.4,,,,,
+G03,By Automation Degree,0.4,df_resource,IND02,24.64,13.67,5.62,55.81,17.0,4,,,0.4,,,,,
+G03,By Automation Degree,0.4,df_process,IND03,11.8,10.63,0.11,315.15,1640.0,4,,,0.4,,,,,
+G03,By Automation Degree,0.4,df_product,IND04,399.4,266.86,144.0,1806.0,160.0,4,,,0.4,,,,,
+G03,By Automation Degree,0.4,df_process,IND05,1987.68,1717.74,0.0,9565.0,1640.0,4,,,0.4,,,,,
+G03,By Automation Degree,0.4,df_process,IND06,74.0,87.53,0.0,336.0,1640.0,4,,,0.4,,,,,
+G03,By Automation Degree,0.46,df_process,IND01,0.09,0.06,0.0,0.2,1520.0,4,,,0.46,,,,,
+G03,By Automation Degree,0.46,df_resource,IND02,23.78,14.93,2.81,56.02,17.0,4,,,0.46,,,,,
+G03,By Automation Degree,0.46,df_process,IND03,12.29,7.59,0.11,25.85,1520.0,4,,,0.46,,,,,
+G03,By Automation Degree,0.46,df_product,IND04,430.44,328.8,144.0,1658.0,160.0,4,,,0.46,,,,,
+G03,By Automation Degree,0.46,df_process,IND05,1897.92,1672.58,0.0,9565.0,1520.0,4,,,0.46,,,,,
+G03,By Automation Degree,0.46,df_process,IND06,68.66,83.85,0.0,336.0,1520.0,4,,,0.46,,,,,
+G03,By Automation Degree,0.48,df_process,IND01,0.08,0.05,0.0,0.18,1340.0,4,,,0.48,,,,,
+G03,By Automation Degree,0.48,df_resource,IND02,20.12,10.43,4.95,40.24,16.0,4,,,0.48,,,,,
+G03,By Automation Degree,0.48,df_process,IND03,11.1,6.73,0.11,23.98,1340.0,4,,,0.48,,,,,
+G03,By Automation Degree,0.48,df_product,IND04,316.36,102.87,144.0,635.0,160.0,4,,,0.48,,,,,
+G03,By Automation Degree,0.48,df_process,IND05,1883.16,1682.51,0.0,9565.0,1340.0,4,,,0.48,,,,,
+G03,By Automation Degree,0.48,df_process,IND06,67.67,82.44,0.0,336.0,1340.0,4,,,0.48,,,,,
+G03,By Automation Degree,0.5,df_process,IND01,0.1,0.08,0.0,2.39,1360.0,4,,,0.5,,,,,
+G03,By Automation Degree,0.5,df_resource,IND02,24.14,14.2,8.38,58.71,16.0,4,,,0.5,,,,,
+G03,By Automation Degree,0.5,df_process,IND03,13.12,10.96,0.11,315.15,1360.0,4,,,0.5,,,,,
+G03,By Automation Degree,0.5,df_product,IND04,396.1,261.62,182.0,1792.0,160.0,4,,,0.5,,,,,
+G03,By Automation Degree,0.5,df_process,IND05,2084.88,2117.81,365.0,9565.0,1360.0,4,,,0.5,,,,,
+G03,By Automation Degree,0.5,df_process,IND06,74.57,96.96,2.44,336.0,1360.0,4,,,0.5,,,,,
+G03,By Automation Degree,0.54,df_process,IND01,0.08,0.07,0.0,2.37,2080.0,4,,,0.54,,,,,
+G03,By Automation Degree,0.54,df_resource,IND02,26.96,11.98,12.38,53.57,17.0,4,,,0.54,,,,,
+G03,By Automation Degree,0.54,df_process,IND03,10.18,9.4,0.11,312.18,2080.0,4,,,0.54,,,,,
+G03,By Automation Degree,0.54,df_product,IND04,483.93,384.36,144.0,1885.0,160.0,4,,,0.54,,,,,
+G03,By Automation Degree,0.54,df_process,IND05,1947.15,1396.85,0.0,4870.0,2080.0,4,,,0.54,,,,,
+G03,By Automation Degree,0.54,df_process,IND06,75.05,82.04,0.0,280.4,2080.0,4,,,0.54,,,,,
+G03,By Automation Degree,0.57,df_process,IND01,0.08,0.11,0.0,3.87,2557.0,4,,,0.57,,,,,
+G03,By Automation Degree,0.57,df_resource,IND02,36.18,16.23,18.57,78.98,17.0,4,,,0.57,,,,,
+G03,By Automation Degree,0.57,df_process,IND03,11.11,14.25,0.11,510.18,2557.0,4,,,0.57,,,,,
+G03,By Automation Degree,0.57,df_product,IND04,1369.38,1367.27,254.0,5896.0,160.0,4,,,0.57,,,,,
+G03,By Automation Degree,0.57,df_process,IND05,2012.18,1472.54,365.0,4870.0,2557.0,4,,,0.57,,,,,
+G03,By Automation Degree,0.57,df_process,IND06,78.36,86.01,2.44,280.4,2557.0,4,,,0.57,,,,,
+G03,By Automation Degree,0.63,df_process,IND01,0.08,0.05,0.0,0.2,1640.0,4,,,0.63,,,,,
+G03,By Automation Degree,0.63,df_resource,IND02,21.56,10.55,5.62,43.17,17.0,4,,,0.63,,,,,
+G03,By Automation Degree,0.63,df_process,IND03,10.33,6.09,0.11,25.85,1640.0,4,,,0.63,,,,,
+G03,By Automation Degree,0.63,df_product,IND04,359.18,175.35,144.0,1546.0,160.0,4,,,0.63,,,,,
+G03,By Automation Degree,0.63,df_process,IND05,1987.68,1717.74,0.0,9565.0,1640.0,4,,,0.63,,,,,
+G03,By Automation Degree,0.63,df_process,IND06,74.0,87.53,0.0,336.0,1640.0,4,,,0.63,,,,,
+G03,By Automation Degree,0.64,df_process,IND01,0.07,0.06,0.0,2.37,2080.0,4,,,0.64,,,,,
+G03,By Automation Degree,0.64,df_resource,IND02,24.84,12.44,7.74,53.57,17.0,4,,,0.64,,,,,
+G03,By Automation Degree,0.64,df_process,IND03,9.38,8.47,0.11,312.18,2080.0,4,,,0.64,,,,,
+G03,By Automation Degree,0.64,df_product,IND04,474.16,371.88,148.0,1870.0,160.0,4,,,0.64,,,,,
+G03,By Automation Degree,0.64,df_process,IND05,1947.15,1396.85,0.0,4870.0,2080.0,4,,,0.64,,,,,
+G03,By Automation Degree,0.64,df_process,IND06,75.05,82.04,0.0,280.4,2080.0,4,,,0.64,,,,,
+G03,By Automation Degree,0.66,df_process,IND01,0.07,0.04,0.0,0.17,2680.0,8,,,0.66,,,,,
+G03,By Automation Degree,0.66,df_resource,IND02,17.65,9.17,3.1,40.24,32.0,8,,,0.66,,,,,
+G03,By Automation Degree,0.66,df_process,IND03,9.74,4.82,0.11,22.88,2680.0,8,,,0.66,,,,,
+G03,By Automation Degree,0.66,df_product,IND04,304.21,92.53,144.0,592.0,320.0,8,,,0.66,,,,,
+G03,By Automation Degree,0.66,df_process,IND05,1883.16,1682.2,0.0,9565.0,2680.0,8,,,0.66,,,,,
+G03,By Automation Degree,0.66,df_process,IND06,67.67,82.43,0.0,336.0,2680.0,8,,,0.66,,,,,
+G03,By Automation Degree,0.69,df_process,IND01,0.07,0.04,0.0,0.13,1640.0,4,,,0.69,,,,,
+G03,By Automation Degree,0.69,df_resource,IND02,20.28,10.96,3.88,43.17,17.0,4,,,0.69,,,,,
+G03,By Automation Degree,0.69,df_process,IND03,9.71,5.03,0.11,17.82,1640.0,4,,,0.69,,,,,
+G03,By Automation Degree,0.69,df_product,IND04,349.86,148.96,144.0,1521.0,160.0,4,,,0.69,,,,,
+G03,By Automation Degree,0.69,df_process,IND05,1987.68,1717.74,0.0,9565.0,1640.0,4,,,0.69,,,,,
+G03,By Automation Degree,0.69,df_process,IND06,74.0,87.53,0.0,336.0,1640.0,4,,,0.69,,,,,
+G03,By Automation Degree,0.71,df_process,IND01,0.08,0.1,0.0,3.87,2555.0,4,,,0.71,,,,,
+G03,By Automation Degree,0.71,df_resource,IND02,32.52,16.65,12.38,71.5,17.0,4,,,0.71,,,,,
+G03,By Automation Degree,0.71,df_process,IND03,10.0,12.83,0.11,510.18,2555.0,4,,,0.71,,,,,
+G03,By Automation Degree,0.71,df_product,IND04,1295.37,1452.81,238.0,5928.0,160.0,4,,,0.71,,,,,
+G03,By Automation Degree,0.71,df_process,IND05,2013.06,1472.78,365.0,4870.0,2555.0,4,,,0.71,,,,,
+G03,By Automation Degree,0.71,df_process,IND06,78.39,86.03,2.44,280.4,2555.0,4,,,0.71,,,,,
+G03,By Automation Degree,0.72,df_process,IND01,0.08,0.04,0.0,0.2,1520.0,4,,,0.72,,,,,
+G03,By Automation Degree,0.72,df_resource,IND02,20.48,11.53,2.81,42.0,17.0,4,,,0.72,,,,,
+G03,By Automation Degree,0.72,df_process,IND03,10.58,5.74,0.11,25.85,1520.0,4,,,0.72,,,,,
+G03,By Automation Degree,0.72,df_product,IND04,338.17,115.13,144.0,631.0,160.0,4,,,0.72,,,,,
+G03,By Automation Degree,0.72,df_process,IND05,1897.92,1672.58,0.0,9565.0,1520.0,4,,,0.72,,,,,
+G03,By Automation Degree,0.72,df_process,IND06,68.66,83.85,0.0,336.0,1520.0,4,,,0.72,,,,,
+G03,By Automation Degree,0.75,df_process,IND01,0.08,0.04,0.0,0.13,1520.0,4,,,0.75,,,,,
+G03,By Automation Degree,0.75,df_resource,IND02,19.62,11.9,1.95,41.07,17.0,4,,,0.75,,,,,
+G03,By Automation Degree,0.75,df_process,IND03,10.14,5.0,0.11,17.82,1520.0,4,,,0.75,,,,,
+G03,By Automation Degree,0.75,df_product,IND04,335.28,111.38,144.0,613.0,160.0,4,,,0.75,,,,,
+G03,By Automation Degree,0.75,df_process,IND05,1897.92,1672.58,0.0,9565.0,1520.0,4,,,0.75,,,,,
+G03,By Automation Degree,0.75,df_process,IND06,68.66,83.85,0.0,336.0,1520.0,4,,,0.75,,,,,
+G03,By Automation Degree,0.83,df_process,IND01,0.08,0.04,0.0,0.17,2720.0,8,,,0.83,,,,,
+G03,By Automation Degree,0.83,df_resource,IND02,20.08,10.07,6.19,39.52,32.0,8,,,0.83,,,,,
+G03,By Automation Degree,0.83,df_process,IND03,10.92,5.2,0.11,22.88,2720.0,8,,,0.83,,,,,
+G03,By Automation Degree,0.83,df_product,IND04,325.98,103.62,168.0,604.0,320.0,8,,,0.83,,,,,
+G03,By Automation Degree,0.83,df_process,IND05,2084.88,2117.42,365.0,9565.0,2720.0,8,,,0.83,,,,,
+G03,By Automation Degree,0.83,df_process,IND06,74.57,96.94,2.44,336.0,2720.0,8,,,0.83,,,,,
+G05,By Division Type,labor,df_process,IND01,0.09,0.1,0.0,3.93,20850.0,48,,,,labor,,,,0.53
+G05,By Division Type,labor,df_resource,IND02,28.63,19.82,1.95,85.95,184.0,48,,,,labor,,,,0.34
+G05,By Division Type,labor,df_process,IND03,11.67,13.67,0.11,518.98,20850.0,48,,,,labor,,,,0.51
+G05,By Division Type,labor,df_product,IND04,858.47,1086.02,144.0,7404.0,1920.0,48,,,,labor,,,,0.18
+G05,By Division Type,labor,df_process,IND05,1977.36,1652.69,0.0,9565.0,20850.0,48,,,,labor,,,,0.47
+G05,By Division Type,labor,df_process,IND06,73.97,86.39,0.0,336.0,20850.0,48,,,,labor,,,,0.53
+G05,By Division Type,quantity,df_process,IND01,0.09,0.05,0.0,0.2,21000.0,48,,,,quantity,,,,0.44
+G05,By Division Type,quantity,df_resource,IND02,23.83,8.93,8.45,46.0,216.0,48,,,,quantity,,,,0.22
+G05,By Division Type,quantity,df_process,IND03,11.32,6.88,0.11,25.85,21000.0,48,,,,quantity,,,,0.43
+G05,By Division Type,quantity,df_product,IND04,312.38,96.68,144.0,645.0,1920.0,48,,,,quantity,,,,0.01
+G05,By Division Type,quantity,df_process,IND05,1971.57,1650.89,0.0,9565.0,21000.0,48,,,,quantity,,,,0.44
+G05,By Division Type,quantity,df_process,IND06,73.75,86.29,0.0,336.0,21000.0,48,,,,quantity,,,,0.51
+G06,By Number of Stations,3.0,df_process,IND01,0.09,0.1,0.0,2.43,10417.0,24,,,,,3.0,,,0.54
+G06,By Number of Stations,3.0,df_resource,IND02,36.69,21.94,3.1,85.95,72.0,24,,,,,3.0,,,0.56
+G06,By Number of Stations,3.0,df_process,IND03,11.72,13.09,0.11,320.98,10417.0,24,,,,,3.0,,,0.52
+G06,By Number of Stations,3.0,df_product,IND04,746.83,753.83,144.0,4735.0,960.0,24,,,,,3.0,,,0.15
+G06,By Number of Stations,3.0,df_process,IND05,1976.25,1651.48,0.0,9565.0,10417.0,24,,,,,3.0,,,0.46
+G06,By Number of Stations,3.0,df_process,IND06,73.91,86.33,0.0,336.0,10417.0,24,,,,,3.0,,,0.52
+G06,By Number of Stations,4.0,df_process,IND01,0.09,0.05,0.0,0.2,10500.0,24,,,,,4.0,,,0.44
+G06,By Number of Stations,4.0,df_resource,IND02,26.81,7.67,16.62,46.0,96.0,24,,,,,4.0,,,0.29
+G06,By Number of Stations,4.0,df_process,IND03,11.32,6.88,0.11,25.85,10500.0,24,,,,,4.0,,,0.43
+G06,By Number of Stations,4.0,df_product,IND04,314.14,99.11,147.0,645.0,960.0,24,,,,,4.0,,,0.01
+G06,By Number of Stations,4.0,df_process,IND05,1971.57,1650.93,0.0,9565.0,10500.0,24,,,,,4.0,,,0.44
+G06,By Number of Stations,4.0,df_process,IND06,73.75,86.29,0.0,336.0,10500.0,24,,,,,4.0,,,0.51
+G06,By Number of Stations,5.0,df_process,IND01,0.09,0.08,0.0,3.93,20933.0,48,,,,,5.0,,,0.48
+G06,By Number of Stations,5.0,df_resource,IND02,22.42,13.21,1.95,79.52,232.0,48,,,,,5.0,,,0.18
+G06,By Number of Stations,5.0,df_process,IND03,11.48,11.16,0.11,518.98,20933.0,48,,,,,5.0,,,0.47
+G06,By Number of Stations,5.0,df_product,IND04,640.36,998.11,144.0,7404.0,1920.0,48,,,,,5.0,,,0.12
+G06,By Number of Stations,5.0,df_process,IND05,1975.0,1652.41,0.0,9565.0,20933.0,48,,,,,5.0,,,0.46
+G06,By Number of Stations,5.0,df_process,IND06,73.89,86.37,0.0,336.0,20933.0,48,,,,,5.0,,,0.52
+G11,Product_Mix_x_System,balanced_system_01,df_process,IND01,0.09,0.1,0.0,2.39,1640.0,4,system_01,balanced,,,,,,
+G11,Product_Mix_x_System,balanced_system_01,df_resource,IND02,34.07,19.18,6.98,55.81,12.0,4,system_01,balanced,,,,,,
+G11,Product_Mix_x_System,balanced_system_01,df_process,IND03,11.52,12.53,0.11,315.15,1640.0,4,system_01,balanced,,,,,,
+G11,Product_Mix_x_System,balanced_system_01,df_product,IND04,532.15,388.46,144.0,1818.0,160.0,4,system_01,balanced,,,,,,
+G11,Product_Mix_x_System,balanced_system_01,df_process,IND05,1987.68,1717.74,0.0,9565.0,1640.0,4,system_01,balanced,,,,,,
+G11,Product_Mix_x_System,balanced_system_01,df_process,IND06,74.0,87.53,0.0,336.0,1640.0,4,system_01,balanced,,,,,,
+G11,Product_Mix_x_System,balanced_system_01,df_experiments,economic_score,0.35,0.0,0.34,0.35,4.0,4,system_01,balanced,,,,,,
+G11,Product_Mix_x_System,balanced_system_01,df_experiments,environmental_score,0.17,0.02,0.14,0.19,4.0,4,system_01,balanced,,,,,,
+G11,Product_Mix_x_System,balanced_system_01,df_experiments,rank,18.0,1.0,17.0,19.0,3.0,4,system_01,balanced,,,,,,
+G11,Product_Mix_x_System,balanced_system_01,df_experiments,rank_all,26.25,3.5,22.0,30.0,4.0,4,system_01,balanced,,,,,,
+G11,Product_Mix_x_System,balanced_system_01,df_experiments,total_weighted_score,0.51,0.02,0.49,0.53,4.0,4,system_01,balanced,,,,,,
+G11,Product_Mix_x_System,balanced_system_02,df_process,IND01,0.08,0.05,0.0,0.2,1640.0,4,system_02,balanced,,,,,,
+G11,Product_Mix_x_System,balanced_system_02,df_resource,IND02,24.75,4.5,17.57,33.86,16.0,4,system_02,balanced,,,,,,
+G11,Product_Mix_x_System,balanced_system_02,df_process,IND03,11.16,6.66,0.11,25.85,1640.0,4,system_02,balanced,,,,,,
+G11,Product_Mix_x_System,balanced_system_02,df_product,IND04,297.46,82.85,150.0,476.0,160.0,4,system_02,balanced,,,,,,
+G11,Product_Mix_x_System,balanced_system_02,df_process,IND05,1987.68,1717.74,0.0,9565.0,1640.0,4,system_02,balanced,,,,,,
+G11,Product_Mix_x_System,balanced_system_02,df_process,IND06,74.0,87.53,0.0,336.0,1640.0,4,system_02,balanced,,,,,,
+G11,Product_Mix_x_System,balanced_system_02,df_experiments,economic_score,0.31,0.0,0.31,0.31,4.0,4,system_02,balanced,,,,,,
+G11,Product_Mix_x_System,balanced_system_02,df_experiments,environmental_score,0.17,0.02,0.15,0.19,4.0,4,system_02,balanced,,,,,,
+G11,Product_Mix_x_System,balanced_system_02,df_experiments,rank,,,,,0.0,4,system_02,balanced,,,,,,
+G11,Product_Mix_x_System,balanced_system_02,df_experiments,rank_all,35.75,7.27,29.0,45.0,4.0,4,system_02,balanced,,,,,,
+G11,Product_Mix_x_System,balanced_system_02,df_experiments,total_weighted_score,0.48,0.02,0.46,0.49,4.0,4,system_02,balanced,,,,,,
+G11,Product_Mix_x_System,balanced_system_03,df_process,IND01,0.08,0.05,0.0,0.2,1640.0,4,system_03,balanced,,,,,,
+G11,Product_Mix_x_System,balanced_system_03,df_resource,IND02,19.8,13.57,3.88,44.43,20.0,4,system_03,balanced,,,,,,
+G11,Product_Mix_x_System,balanced_system_03,df_process,IND03,11.16,6.66,0.11,25.85,1640.0,4,system_03,balanced,,,,,,
+G11,Product_Mix_x_System,balanced_system_03,df_product,IND04,414.01,168.56,182.0,1592.0,160.0,4,system_03,balanced,,,,,,
+G11,Product_Mix_x_System,balanced_system_03,df_process,IND05,1987.68,1717.74,0.0,9565.0,1640.0,4,system_03,balanced,,,,,,
+G11,Product_Mix_x_System,balanced_system_03,df_process,IND06,74.0,87.53,0.0,336.0,1640.0,4,system_03,balanced,,,,,,
+G11,Product_Mix_x_System,balanced_system_03,df_experiments,economic_score,0.27,0.01,0.27,0.28,4.0,4,system_03,balanced,,,,,,
+G11,Product_Mix_x_System,balanced_system_03,df_experiments,environmental_score,0.17,0.02,0.15,0.19,4.0,4,system_03,balanced,,,,,,
+G11,Product_Mix_x_System,balanced_system_03,df_experiments,rank,,,,,0.0,4,system_03,balanced,,,,,,
+G11,Product_Mix_x_System,balanced_system_03,df_experiments,rank_all,56.0,15.73,42.0,76.0,4.0,4,system_03,balanced,,,,,,
+G11,Product_Mix_x_System,balanced_system_03,df_experiments,total_weighted_score,0.45,0.02,0.42,0.47,4.0,4,system_03,balanced,,,,,,
+G11,Product_Mix_x_System,balanced_system_05,df_process,IND01,0.08,0.05,0.0,0.2,1640.0,4,system_05,balanced,,,,,,
+G11,Product_Mix_x_System,balanced_system_05,df_resource,IND02,19.8,7.77,8.88,30.98,20.0,4,system_05,balanced,,,,,,
+G11,Product_Mix_x_System,balanced_system_05,df_process,IND03,11.16,6.66,0.11,25.85,1640.0,4,system_05,balanced,,,,,,
+G11,Product_Mix_x_System,balanced_system_05,df_product,IND04,298.19,84.76,144.0,500.0,160.0,4,system_05,balanced,,,,,,
+G11,Product_Mix_x_System,balanced_system_05,df_process,IND05,1987.68,1717.74,0.0,9565.0,1640.0,4,system_05,balanced,,,,,,
+G11,Product_Mix_x_System,balanced_system_05,df_process,IND06,74.0,87.53,0.0,336.0,1640.0,4,system_05,balanced,,,,,,
+G11,Product_Mix_x_System,balanced_system_05,df_experiments,economic_score,0.28,0.0,0.27,0.28,4.0,4,system_05,balanced,,,,,,
+G11,Product_Mix_x_System,balanced_system_05,df_experiments,environmental_score,0.17,0.02,0.15,0.19,4.0,4,system_05,balanced,,,,,,
+G11,Product_Mix_x_System,balanced_system_05,df_experiments,rank,,,,,0.0,4,system_05,balanced,,,,,,
+G11,Product_Mix_x_System,balanced_system_05,df_experiments,rank_all,52.5,12.82,41.0,68.0,4.0,4,system_05,balanced,,,,,,
+G11,Product_Mix_x_System,balanced_system_05,df_experiments,total_weighted_score,0.45,0.02,0.42,0.47,4.0,4,system_05,balanced,,,,,,
+G11,Product_Mix_x_System,front_system_01,df_process,IND01,0.09,0.12,0.0,2.43,2080.0,4,system_01,front,,,,,,
+G11,Product_Mix_x_System,front_system_01,df_resource,IND02,42.93,22.44,9.71,70.76,12.0,4,system_01,front,,,,,,
+G11,Product_Mix_x_System,front_system_01,df_process,IND03,11.44,15.89,0.11,320.98,2080.0,4,system_01,front,,,,,,
+G11,Product_Mix_x_System,front_system_01,df_product,IND04,797.04,594.62,144.0,2069.0,160.0,4,system_01,front,,,,,,
+G11,Product_Mix_x_System,front_system_01,df_process,IND05,1947.15,1396.85,0.0,4870.0,2080.0,4,system_01,front,,,,,,
+G11,Product_Mix_x_System,front_system_01,df_process,IND06,75.05,82.04,0.0,280.4,2080.0,4,system_01,front,,,,,,
+G11,Product_Mix_x_System,front_system_01,df_experiments,economic_score,0.4,0.0,0.39,0.4,4.0,4,system_01,front,,,,,,
+G11,Product_Mix_x_System,front_system_01,df_experiments,environmental_score,0.18,0.03,0.15,0.21,4.0,4,system_01,front,,,,,,
+G11,Product_Mix_x_System,front_system_01,df_experiments,rank,10.25,3.77,6.0,15.0,4.0,4,system_01,front,,,,,,
+G11,Product_Mix_x_System,front_system_01,df_experiments,rank_all,12.5,5.0,7.0,19.0,4.0,4,system_01,front,,,,,,
+G11,Product_Mix_x_System,front_system_01,df_experiments,total_weighted_score,0.58,0.03,0.54,0.6,4.0,4,system_01,front,,,,,,
+G11,Product_Mix_x_System,front_system_02,df_process,IND01,0.08,0.05,0.0,0.2,2080.0,4,system_02,front,,,,,,
+G11,Product_Mix_x_System,front_system_02,df_resource,IND02,30.21,4.97,21.45,37.36,16.0,4,system_02,front,,,,,,
+G11,Product_Mix_x_System,front_system_02,df_process,IND03,10.74,7.08,0.11,25.85,2080.0,4,system_02,front,,,,,,
+G11,Product_Mix_x_System,front_system_02,df_product,IND04,339.24,110.57,150.0,584.0,160.0,4,system_02,front,,,,,,
+G11,Product_Mix_x_System,front_system_02,df_process,IND05,1947.15,1396.85,0.0,4870.0,2080.0,4,system_02,front,,,,,,
+G11,Product_Mix_x_System,front_system_02,df_process,IND06,75.05,82.04,0.0,280.4,2080.0,4,system_02,front,,,,,,
+G11,Product_Mix_x_System,front_system_02,df_experiments,economic_score,0.36,0.0,0.36,0.36,4.0,4,system_02,front,,,,,,
+G11,Product_Mix_x_System,front_system_02,df_experiments,environmental_score,0.2,0.02,0.17,0.22,4.0,4,system_02,front,,,,,,
+G11,Product_Mix_x_System,front_system_02,df_experiments,rank,15.0,1.41,14.0,16.0,2.0,4,system_02,front,,,,,,
+G11,Product_Mix_x_System,front_system_02,df_experiments,rank_all,18.0,4.32,14.0,24.0,4.0,4,system_02,front,,,,,,
+G11,Product_Mix_x_System,front_system_02,df_experiments,total_weighted_score,0.55,0.02,0.53,0.57,4.0,4,system_02,front,,,,,,
+G11,Product_Mix_x_System,front_system_03,df_process,IND01,0.08,0.13,0.0,3.93,2080.0,4,system_03,front,,,,,,
+G11,Product_Mix_x_System,front_system_03,df_resource,IND02,25.24,14.45,7.74,56.43,20.0,4,system_03,front,,,,,,
+G11,Product_Mix_x_System,front_system_03,df_process,IND03,11.21,17.19,0.11,518.98,2080.0,4,system_03,front,,,,,,
+G11,Product_Mix_x_System,front_system_03,df_product,IND04,692.99,543.67,167.0,2040.0,160.0,4,system_03,front,,,,,,
+G11,Product_Mix_x_System,front_system_03,df_process,IND05,1947.15,1396.85,0.0,4870.0,2080.0,4,system_03,front,,,,,,
+G11,Product_Mix_x_System,front_system_03,df_process,IND06,75.05,82.04,0.0,280.4,2080.0,4,system_03,front,,,,,,
+G11,Product_Mix_x_System,front_system_03,df_experiments,economic_score,0.31,0.01,0.3,0.32,4.0,4,system_03,front,,,,,,
+G11,Product_Mix_x_System,front_system_03,df_experiments,environmental_score,0.19,0.03,0.15,0.22,4.0,4,system_03,front,,,,,,
+G11,Product_Mix_x_System,front_system_03,df_experiments,rank,23.0,,23.0,23.0,1.0,4,system_03,front,,,,,,
+G11,Product_Mix_x_System,front_system_03,df_experiments,rank_all,33.75,12.69,21.0,49.0,4.0,4,system_03,front,,,,,,
+G11,Product_Mix_x_System,front_system_03,df_experiments,total_weighted_score,0.49,0.04,0.45,0.53,4.0,4,system_03,front,,,,,,
+G11,Product_Mix_x_System,front_system_05,df_process,IND01,0.08,0.05,0.0,0.2,2080.0,4,system_05,front,,,,,,
+G11,Product_Mix_x_System,front_system_05,df_resource,IND02,24.17,7.99,12.74,37.36,20.0,4,system_05,front,,,,,,
+G11,Product_Mix_x_System,front_system_05,df_process,IND03,10.74,7.08,0.11,25.85,2080.0,4,system_05,front,,,,,,
+G11,Product_Mix_x_System,front_system_05,df_product,IND04,331.65,101.79,150.0,524.0,160.0,4,system_05,front,,,,,,
+G11,Product_Mix_x_System,front_system_05,df_process,IND05,1947.15,1396.85,0.0,4870.0,2080.0,4,system_05,front,,,,,,
+G11,Product_Mix_x_System,front_system_05,df_process,IND06,75.05,82.04,0.0,280.4,2080.0,4,system_05,front,,,,,,
+G11,Product_Mix_x_System,front_system_05,df_experiments,economic_score,0.32,0.0,0.32,0.33,4.0,4,system_05,front,,,,,,
+G11,Product_Mix_x_System,front_system_05,df_experiments,environmental_score,0.2,0.02,0.17,0.22,4.0,4,system_05,front,,,,,,
+G11,Product_Mix_x_System,front_system_05,df_experiments,rank,,,,,0.0,4,system_05,front,,,,,,
+G11,Product_Mix_x_System,front_system_05,df_experiments,rank_all,25.5,5.2,20.0,32.0,4.0,4,system_05,front,,,,,,
+G11,Product_Mix_x_System,front_system_05,df_experiments,total_weighted_score,0.52,0.02,0.49,0.54,4.0,4,system_05,front,,,,,,
+G11,Product_Mix_x_System,hd_system_01,df_process,IND01,0.09,0.11,0.0,2.39,2477.0,4,system_01,hd,,,,,,
+G11,Product_Mix_x_System,hd_system_01,df_resource,IND02,53.36,25.98,15.52,85.95,12.0,4,system_01,hd,,,,,,
+G11,Product_Mix_x_System,hd_system_01,df_process,IND03,11.94,15.0,0.11,315.15,2477.0,4,system_01,hd,,,,,,
+G11,Product_Mix_x_System,hd_system_01,df_product,IND04,1774.48,1137.88,268.0,4735.0,160.0,4,system_01,hd,,,,,,
+G11,Product_Mix_x_System,hd_system_01,df_process,IND05,2031.9,1467.75,365.0,4870.0,2477.0,4,system_01,hd,,,,,,
+G11,Product_Mix_x_System,hd_system_01,df_process,IND06,79.13,86.11,2.44,280.4,2477.0,4,system_01,hd,,,,,,
+G11,Product_Mix_x_System,hd_system_01,df_experiments,economic_score,0.43,0.02,0.41,0.46,4.0,4,system_01,hd,,,,,,
+G11,Product_Mix_x_System,hd_system_01,df_experiments,environmental_score,0.2,0.03,0.17,0.23,4.0,4,system_01,hd,,,,,,
+G11,Product_Mix_x_System,hd_system_01,df_experiments,rank,5.25,4.03,1.0,10.0,4.0,4,system_01,hd,,,,,,
+G11,Product_Mix_x_System,hd_system_01,df_experiments,rank_all,6.0,4.97,1.0,12.0,4.0,4,system_01,hd,,,,,,
+G11,Product_Mix_x_System,hd_system_01,df_experiments,total_weighted_score,0.63,0.05,0.59,0.69,4.0,4,system_01,hd,,,,,,
+G11,Product_Mix_x_System,hd_system_02,df_process,IND01,0.09,0.06,0.0,0.2,2560.0,4,system_02,hd,,,,,,
+G11,Product_Mix_x_System,hd_system_02,df_resource,IND02,39.73,4.91,33.55,46.0,16.0,4,system_02,hd,,,,,,
+G11,Product_Mix_x_System,hd_system_02,df_process,IND03,11.47,7.67,0.11,25.85,2560.0,4,system_02,hd,,,,,,
+G11,Product_Mix_x_System,hd_system_02,df_product,IND04,410.43,109.78,238.0,645.0,160.0,4,system_02,hd,,,,,,
+G11,Product_Mix_x_System,hd_system_02,df_process,IND05,2010.88,1472.17,365.0,4870.0,2560.0,4,system_02,hd,,,,,,
+G11,Product_Mix_x_System,hd_system_02,df_process,IND06,78.31,85.98,2.44,280.4,2560.0,4,system_02,hd,,,,,,
+G11,Product_Mix_x_System,hd_system_02,df_experiments,economic_score,0.42,0.0,0.42,0.42,4.0,4,system_02,hd,,,,,,
+G11,Product_Mix_x_System,hd_system_02,df_experiments,environmental_score,0.21,0.03,0.17,0.24,4.0,4,system_02,hd,,,,,,
+G11,Product_Mix_x_System,hd_system_02,df_experiments,rank,4.75,2.5,2.0,8.0,4.0,4,system_02,hd,,,,,,
+G11,Product_Mix_x_System,hd_system_02,df_experiments,rank_all,5.5,3.42,2.0,10.0,4.0,4,system_02,hd,,,,,,
+G11,Product_Mix_x_System,hd_system_02,df_experiments,total_weighted_score,0.63,0.03,0.6,0.67,4.0,4,system_02,hd,,,,,,
+G11,Product_Mix_x_System,hd_system_03,df_process,IND01,0.09,0.17,0.0,3.93,2493.0,4,system_03,hd,,,,,,
+G11,Product_Mix_x_System,hd_system_03,df_resource,IND02,33.4,19.91,12.38,79.52,20.0,4,system_03,hd,,,,,,
+G11,Product_Mix_x_System,hd_system_03,df_process,IND03,12.38,22.42,0.11,518.98,2493.0,4,system_03,hd,,,,,,
+G11,Product_Mix_x_System,hd_system_03,df_product,IND04,3473.01,1602.97,422.0,7404.0,160.0,4,system_03,hd,,,,,,
+G11,Product_Mix_x_System,hd_system_03,df_process,IND05,2040.78,1480.33,365.0,4870.0,2493.0,4,system_03,hd,,,,,,
+G11,Product_Mix_x_System,hd_system_03,df_process,IND06,79.58,86.57,2.44,280.4,2493.0,4,system_03,hd,,,,,,
+G11,Product_Mix_x_System,hd_system_03,df_experiments,economic_score,0.25,0.03,0.21,0.27,4.0,4,system_03,hd,,,,,,
+G11,Product_Mix_x_System,hd_system_03,df_experiments,environmental_score,0.19,0.03,0.16,0.23,4.0,4,system_03,hd,,,,,,
+G11,Product_Mix_x_System,hd_system_03,df_experiments,rank,25.0,4.36,20.0,28.0,3.0,4,system_03,hd,,,,,,
+G11,Product_Mix_x_System,hd_system_03,df_experiments,rank_all,61.5,29.49,33.0,93.0,4.0,4,system_03,hd,,,,,,
+G11,Product_Mix_x_System,hd_system_03,df_experiments,total_weighted_score,0.44,0.05,0.38,0.49,4.0,4,system_03,hd,,,,,,
+G11,Product_Mix_x_System,hd_system_05,df_process,IND01,0.09,0.06,0.0,0.2,2560.0,4,system_05,hd,,,,,,
+G11,Product_Mix_x_System,hd_system_05,df_resource,IND02,31.78,10.79,16.76,46.0,20.0,4,system_05,hd,,,,,,
+G11,Product_Mix_x_System,hd_system_05,df_process,IND03,11.47,7.67,0.11,25.85,2560.0,4,system_05,hd,,,,,,
+G11,Product_Mix_x_System,hd_system_05,df_product,IND04,403.7,97.18,239.0,549.0,160.0,4,system_05,hd,,,,,,
+G11,Product_Mix_x_System,hd_system_05,df_process,IND05,2010.88,1472.17,365.0,4870.0,2560.0,4,system_05,hd,,,,,,
+G11,Product_Mix_x_System,hd_system_05,df_process,IND06,78.31,85.98,2.44,280.4,2560.0,4,system_05,hd,,,,,,
+G11,Product_Mix_x_System,hd_system_05,df_experiments,economic_score,0.38,0.01,0.37,0.39,4.0,4,system_05,hd,,,,,,
+G11,Product_Mix_x_System,hd_system_05,df_experiments,environmental_score,0.21,0.03,0.17,0.24,4.0,4,system_05,hd,,,,,,
+G11,Product_Mix_x_System,hd_system_05,df_experiments,rank,12.5,0.71,12.0,13.0,2.0,4,system_05,hd,,,,,,
+G11,Product_Mix_x_System,hd_system_05,df_experiments,rank_all,11.5,5.51,5.0,17.0,4.0,4,system_05,hd,,,,,,
+G11,Product_Mix_x_System,hd_system_05,df_experiments,total_weighted_score,0.59,0.04,0.55,0.63,4.0,4,system_05,hd,,,,,,
+G11,Product_Mix_x_System,mixed_system_01,df_process,IND01,0.08,0.08,0.0,2.39,1340.0,4,system_01,mixed,,,,,,
+G11,Product_Mix_x_System,mixed_system_01,df_resource,IND02,26.71,17.77,3.1,52.19,12.0,4,system_01,mixed,,,,,,
+G11,Product_Mix_x_System,mixed_system_01,df_process,IND03,11.05,10.18,0.11,315.15,1340.0,4,system_01,mixed,,,,,,
+G11,Product_Mix_x_System,mixed_system_01,df_product,IND04,394.36,192.66,144.0,1785.0,160.0,4,system_01,mixed,,,,,,
+G11,Product_Mix_x_System,mixed_system_01,df_process,IND05,1883.16,1682.51,0.0,9565.0,1340.0,4,system_01,mixed,,,,,,
+G11,Product_Mix_x_System,mixed_system_01,df_process,IND06,67.67,82.44,0.0,336.0,1340.0,4,system_01,mixed,,,,,,
+G11,Product_Mix_x_System,mixed_system_01,df_experiments,economic_score,0.29,0.01,0.29,0.3,4.0,4,system_01,mixed,,,,,,
+G11,Product_Mix_x_System,mixed_system_01,df_experiments,environmental_score,0.15,0.02,0.13,0.17,4.0,4,system_01,mixed,,,,,,
+G11,Product_Mix_x_System,mixed_system_01,df_experiments,rank,26.0,,26.0,26.0,1.0,4,system_01,mixed,,,,,,
+G11,Product_Mix_x_System,mixed_system_01,df_experiments,rank_all,54.0,6.68,48.0,63.0,4.0,4,system_01,mixed,,,,,,
+G11,Product_Mix_x_System,mixed_system_01,df_experiments,total_weighted_score,0.45,0.01,0.43,0.45,4.0,4,system_01,mixed,,,,,,
+G11,Product_Mix_x_System,mixed_system_02,df_process,IND01,0.08,0.05,0.0,0.18,1340.0,4,system_02,mixed,,,,,,
+G11,Product_Mix_x_System,mixed_system_02,df_resource,IND02,19.64,2.6,16.62,24.9,16.0,4,system_02,mixed,,,,,,
+G11,Product_Mix_x_System,mixed_system_02,df_process,IND03,10.83,5.89,0.11,23.98,1340.0,4,system_02,mixed,,,,,,
+G11,Product_Mix_x_System,mixed_system_02,df_product,IND04,267.81,63.6,147.0,392.0,160.0,4,system_02,mixed,,,,,,
+G11,Product_Mix_x_System,mixed_system_02,df_process,IND05,1883.16,1682.51,0.0,9565.0,1340.0,4,system_02,mixed,,,,,,
+G11,Product_Mix_x_System,mixed_system_02,df_process,IND06,67.67,82.44,0.0,336.0,1340.0,4,system_02,mixed,,,,,,
+G11,Product_Mix_x_System,mixed_system_02,df_experiments,economic_score,0.26,0.0,0.26,0.26,4.0,4,system_02,mixed,,,,,,
+G11,Product_Mix_x_System,mixed_system_02,df_experiments,environmental_score,0.16,0.01,0.14,0.17,4.0,4,system_02,mixed,,,,,,
+G11,Product_Mix_x_System,mixed_system_02,df_experiments,rank,,,,,0.0,4,system_02,mixed,,,,,,
+G11,Product_Mix_x_System,mixed_system_02,df_experiments,rank_all,75.0,9.93,65.0,87.0,4.0,4,system_02,mixed,,,,,,
+G11,Product_Mix_x_System,mixed_system_02,df_experiments,total_weighted_score,0.42,0.01,0.4,0.43,4.0,4,system_02,mixed,,,,,,
+G11,Product_Mix_x_System,mixed_system_03,df_process,IND01,0.08,0.05,0.0,0.18,1340.0,4,system_03,mixed,,,,,,
+G11,Product_Mix_x_System,mixed_system_03,df_resource,IND02,19.64,12.21,3.1,39.24,16.0,4,system_03,mixed,,,,,,
+G11,Product_Mix_x_System,mixed_system_03,df_process,IND03,10.83,5.89,0.11,23.98,1340.0,4,system_03,mixed,,,,,,
+G11,Product_Mix_x_System,mixed_system_03,df_product,IND04,349.06,82.53,196.0,650.0,160.0,4,system_03,mixed,,,,,,
+G11,Product_Mix_x_System,mixed_system_03,df_process,IND05,1883.16,1682.51,0.0,9565.0,1340.0,4,system_03,mixed,,,,,,
+G11,Product_Mix_x_System,mixed_system_03,df_process,IND06,67.67,82.44,0.0,336.0,1340.0,4,system_03,mixed,,,,,,
+G11,Product_Mix_x_System,mixed_system_03,df_experiments,economic_score,0.26,0.0,0.26,0.26,4.0,4,system_03,mixed,,,,,,
+G11,Product_Mix_x_System,mixed_system_03,df_experiments,environmental_score,0.16,0.01,0.14,0.17,4.0,4,system_03,mixed,,,,,,
+G11,Product_Mix_x_System,mixed_system_03,df_experiments,rank,,,,,0.0,4,system_03,mixed,,,,,,
+G11,Product_Mix_x_System,mixed_system_03,df_experiments,rank_all,78.25,8.54,70.0,89.0,4.0,4,system_03,mixed,,,,,,
+G11,Product_Mix_x_System,mixed_system_03,df_experiments,total_weighted_score,0.41,0.01,0.4,0.42,4.0,4,system_03,mixed,,,,,,
+G11,Product_Mix_x_System,mixed_system_05,df_process,IND01,0.08,0.05,0.0,0.18,1340.0,4,system_05,mixed,,,,,,
+G11,Product_Mix_x_System,mixed_system_05,df_resource,IND02,15.71,5.25,8.45,23.88,20.0,4,system_05,mixed,,,,,,
+G11,Product_Mix_x_System,mixed_system_05,df_process,IND03,10.83,5.89,0.11,23.98,1340.0,4,system_05,mixed,,,,,,
+G11,Product_Mix_x_System,mixed_system_05,df_product,IND04,266.18,62.06,144.0,383.0,160.0,4,system_05,mixed,,,,,,
+G11,Product_Mix_x_System,mixed_system_05,df_process,IND05,1883.16,1682.51,0.0,9565.0,1340.0,4,system_05,mixed,,,,,,
+G11,Product_Mix_x_System,mixed_system_05,df_process,IND06,67.67,82.44,0.0,336.0,1340.0,4,system_05,mixed,,,,,,
+G11,Product_Mix_x_System,mixed_system_05,df_experiments,economic_score,0.24,0.0,0.24,0.24,4.0,4,system_05,mixed,,,,,,
+G11,Product_Mix_x_System,mixed_system_05,df_experiments,environmental_score,0.16,0.01,0.14,0.17,4.0,4,system_05,mixed,,,,,,
+G11,Product_Mix_x_System,mixed_system_05,df_experiments,rank,,,,,0.0,4,system_05,mixed,,,,,,
+G11,Product_Mix_x_System,mixed_system_05,df_experiments,rank_all,88.25,5.38,83.0,95.0,4.0,4,system_05,mixed,,,,,,
+G11,Product_Mix_x_System,mixed_system_05,df_experiments,total_weighted_score,0.39,0.02,0.37,0.41,4.0,4,system_05,mixed,,,,,,
+G11,Product_Mix_x_System,rear_system_01,df_process,IND01,0.1,0.1,0.0,2.39,1360.0,4,system_01,rear,,,,,,
+G11,Product_Mix_x_System,rear_system_01,df_resource,IND02,31.02,18.47,6.19,58.71,12.0,4,system_01,rear,,,,,,
+G11,Product_Mix_x_System,rear_system_01,df_process,IND03,12.65,13.23,0.11,315.15,1360.0,4,system_01,rear,,,,,,
+G11,Product_Mix_x_System,rear_system_01,df_product,IND04,461.06,287.93,191.0,1792.0,160.0,4,system_01,rear,,,,,,
+G11,Product_Mix_x_System,rear_system_01,df_process,IND05,2084.88,2117.81,365.0,9565.0,1360.0,4,system_01,rear,,,,,,
+G11,Product_Mix_x_System,rear_system_01,df_process,IND06,74.57,96.96,2.44,336.0,1360.0,4,system_01,rear,,,,,,
+G11,Product_Mix_x_System,rear_system_01,df_experiments,economic_score,0.32,0.0,0.31,0.32,4.0,4,system_01,rear,,,,,,
+G11,Product_Mix_x_System,rear_system_01,df_experiments,environmental_score,0.15,0.02,0.13,0.17,4.0,4,system_01,rear,,,,,,
+G11,Product_Mix_x_System,rear_system_01,df_experiments,rank,23.0,1.41,22.0,24.0,2.0,4,system_01,rear,,,,,,
+G11,Product_Mix_x_System,rear_system_01,df_experiments,rank_all,42.75,8.1,35.0,52.0,4.0,4,system_01,rear,,,,,,
+G11,Product_Mix_x_System,rear_system_01,df_experiments,total_weighted_score,0.47,0.02,0.45,0.48,4.0,4,system_01,rear,,,,,,
+G11,Product_Mix_x_System,rear_system_02,df_process,IND01,0.09,0.05,0.0,0.18,1360.0,4,system_02,rear,,,,,,
+G11,Product_Mix_x_System,rear_system_02,df_resource,IND02,22.46,2.7,19.19,27.38,16.0,4,system_02,rear,,,,,,
+G11,Product_Mix_x_System,rear_system_02,df_process,IND03,12.21,6.34,0.11,23.98,1360.0,4,system_02,rear,,,,,,
+G11,Product_Mix_x_System,rear_system_02,df_product,IND04,275.77,65.11,171.0,399.0,160.0,4,system_02,rear,,,,,,
+G11,Product_Mix_x_System,rear_system_02,df_process,IND05,2084.88,2117.81,365.0,9565.0,1360.0,4,system_02,rear,,,,,,
+G11,Product_Mix_x_System,rear_system_02,df_process,IND06,74.57,96.96,2.44,336.0,1360.0,4,system_02,rear,,,,,,
+G11,Product_Mix_x_System,rear_system_02,df_experiments,economic_score,0.28,0.0,0.28,0.28,4.0,4,system_02,rear,,,,,,
+G11,Product_Mix_x_System,rear_system_02,df_experiments,environmental_score,0.15,0.01,0.14,0.17,4.0,4,system_02,rear,,,,,,
+G11,Product_Mix_x_System,rear_system_02,df_experiments,rank,,,,,0.0,4,system_02,rear,,,,,,
+G11,Product_Mix_x_System,rear_system_02,df_experiments,rank_all,61.75,11.53,51.0,77.0,4.0,4,system_02,rear,,,,,,
+G11,Product_Mix_x_System,rear_system_02,df_experiments,total_weighted_score,0.44,0.02,0.42,0.45,4.0,4,system_02,rear,,,,,,
+G11,Product_Mix_x_System,rear_system_03,df_process,IND01,0.09,0.05,0.0,0.18,1360.0,4,system_03,rear,,,,,,
+G11,Product_Mix_x_System,rear_system_03,df_resource,IND02,22.46,16.37,6.19,52.29,16.0,4,system_03,rear,,,,,,
+G11,Product_Mix_x_System,rear_system_03,df_process,IND03,12.21,6.34,0.11,23.98,1360.0,4,system_03,rear,,,,,,
+G11,Product_Mix_x_System,rear_system_03,df_product,IND04,440.63,224.82,196.0,1633.0,160.0,4,system_03,rear,,,,,,
+G11,Product_Mix_x_System,rear_system_03,df_process,IND05,2084.88,2117.81,365.0,9565.0,1360.0,4,system_03,rear,,,,,,
+G11,Product_Mix_x_System,rear_system_03,df_process,IND06,74.57,96.96,2.44,336.0,1360.0,4,system_03,rear,,,,,,
+G11,Product_Mix_x_System,rear_system_03,df_experiments,economic_score,0.27,0.0,0.27,0.28,4.0,4,system_03,rear,,,,,,
+G11,Product_Mix_x_System,rear_system_03,df_experiments,environmental_score,0.15,0.01,0.14,0.17,4.0,4,system_03,rear,,,,,,
+G11,Product_Mix_x_System,rear_system_03,df_experiments,rank,,,,,0.0,4,system_03,rear,,,,,,
+G11,Product_Mix_x_System,rear_system_03,df_experiments,rank_all,68.25,13.0,55.0,83.0,4.0,4,system_03,rear,,,,,,
+G11,Product_Mix_x_System,rear_system_03,df_experiments,total_weighted_score,0.43,0.02,0.41,0.45,4.0,4,system_03,rear,,,,,,
+G11,Product_Mix_x_System,rear_system_05,df_process,IND01,0.09,0.05,0.0,0.18,1360.0,4,system_05,rear,,,,,,
+G11,Product_Mix_x_System,rear_system_05,df_resource,IND02,17.97,6.13,9.71,28.83,20.0,4,system_05,rear,,,,,,
+G11,Product_Mix_x_System,rear_system_05,df_process,IND03,12.21,6.34,0.11,23.98,1360.0,4,system_05,rear,,,,,,
+G11,Product_Mix_x_System,rear_system_05,df_product,IND04,275.39,63.82,168.0,384.0,160.0,4,system_05,rear,,,,,,
+G11,Product_Mix_x_System,rear_system_05,df_process,IND05,2084.88,2117.81,365.0,9565.0,1360.0,4,system_05,rear,,,,,,
+G11,Product_Mix_x_System,rear_system_05,df_process,IND06,74.57,96.96,2.44,336.0,1360.0,4,system_05,rear,,,,,,
+G11,Product_Mix_x_System,rear_system_05,df_experiments,economic_score,0.26,0.0,0.25,0.26,4.0,4,system_05,rear,,,,,,
+G11,Product_Mix_x_System,rear_system_05,df_experiments,environmental_score,0.15,0.01,0.14,0.17,4.0,4,system_05,rear,,,,,,
+G11,Product_Mix_x_System,rear_system_05,df_experiments,rank,,,,,0.0,4,system_05,rear,,,,,,
+G11,Product_Mix_x_System,rear_system_05,df_experiments,rank_all,77.5,13.38,62.0,91.0,4.0,4,system_05,rear,,,,,,
+G11,Product_Mix_x_System,rear_system_05,df_experiments,total_weighted_score,0.41,0.02,0.39,0.43,4.0,4,system_05,rear,,,,,,
+G11,Product_Mix_x_System,sa_rd_system_01,df_process,IND01,0.09,0.05,0.0,0.2,1520.0,4,system_01,sa_rd,,,,,,
+G11,Product_Mix_x_System,sa_rd_system_01,df_resource,IND02,32.05,19.55,5.05,56.02,12.0,4,system_01,sa_rd,,,,,,
+G11,Product_Mix_x_System,sa_rd_system_01,df_process,IND03,11.69,6.59,0.11,25.85,1520.0,4,system_01,sa_rd,,,,,,
+G11,Product_Mix_x_System,sa_rd_system_01,df_product,IND04,521.91,372.01,144.0,1618.0,160.0,4,system_01,sa_rd,,,,,,
+G11,Product_Mix_x_System,sa_rd_system_01,df_process,IND05,1897.92,1672.58,0.0,9565.0,1520.0,4,system_01,sa_rd,,,,,,
+G11,Product_Mix_x_System,sa_rd_system_01,df_process,IND06,68.66,83.85,0.0,336.0,1520.0,4,system_01,sa_rd,,,,,,
+G11,Product_Mix_x_System,sa_rd_system_01,df_experiments,economic_score,0.32,0.0,0.32,0.32,4.0,4,system_01,sa_rd,,,,,,
+G11,Product_Mix_x_System,sa_rd_system_01,df_experiments,environmental_score,0.15,0.02,0.13,0.17,4.0,4,system_01,sa_rd,,,,,,
+G11,Product_Mix_x_System,sa_rd_system_01,df_experiments,rank,23.0,2.83,21.0,25.0,2.0,4,system_01,sa_rd,,,,,,
+G11,Product_Mix_x_System,sa_rd_system_01,df_experiments,rank_all,41.5,8.96,33.0,53.0,4.0,4,system_01,sa_rd,,,,,,
+G11,Product_Mix_x_System,sa_rd_system_01,df_experiments,total_weighted_score,0.47,0.02,0.45,0.49,4.0,4,system_01,sa_rd,,,,,,
+G11,Product_Mix_x_System,sa_rd_system_02,df_process,IND01,0.09,0.05,0.0,0.2,1520.0,4,system_02,sa_rd,,,,,,
+G11,Product_Mix_x_System,sa_rd_system_02,df_resource,IND02,24.04,3.4,19.1,30.17,16.0,4,system_02,sa_rd,,,,,,
+G11,Product_Mix_x_System,sa_rd_system_02,df_process,IND03,11.69,6.59,0.11,25.85,1520.0,4,system_02,sa_rd,,,,,,
+G11,Product_Mix_x_System,sa_rd_system_02,df_product,IND04,294.11,74.33,150.0,430.0,160.0,4,system_02,sa_rd,,,,,,
+G11,Product_Mix_x_System,sa_rd_system_02,df_process,IND05,1897.92,1672.58,0.0,9565.0,1520.0,4,system_02,sa_rd,,,,,,
+G11,Product_Mix_x_System,sa_rd_system_02,df_process,IND06,68.66,83.85,0.0,336.0,1520.0,4,system_02,sa_rd,,,,,,
+G11,Product_Mix_x_System,sa_rd_system_02,df_experiments,economic_score,0.28,0.0,0.28,0.28,4.0,4,system_02,sa_rd,,,,,,
+G11,Product_Mix_x_System,sa_rd_system_02,df_experiments,environmental_score,0.15,0.02,0.13,0.17,4.0,4,system_02,sa_rd,,,,,,
+G11,Product_Mix_x_System,sa_rd_system_02,df_experiments,rank,,,,,0.0,4,system_02,sa_rd,,,,,,
+G11,Product_Mix_x_System,sa_rd_system_02,df_experiments,rank_all,65.5,12.23,54.0,82.0,4.0,4,system_02,sa_rd,,,,,,
+G11,Product_Mix_x_System,sa_rd_system_02,df_experiments,total_weighted_score,0.43,0.02,0.41,0.45,4.0,4,system_02,sa_rd,,,,,,
+G11,Product_Mix_x_System,sa_rd_system_03,df_process,IND01,0.09,0.05,0.0,0.2,1520.0,4,system_03,sa_rd,,,,,,
+G11,Product_Mix_x_System,sa_rd_system_03,df_resource,IND02,19.23,17.54,1.95,53.55,20.0,4,system_03,sa_rd,,,,,,
+G11,Product_Mix_x_System,sa_rd_system_03,df_process,IND03,11.69,6.59,0.11,25.85,1520.0,4,system_03,sa_rd,,,,,,
+G11,Product_Mix_x_System,sa_rd_system_03,df_product,IND04,450.88,268.9,209.0,1658.0,160.0,4,system_03,sa_rd,,,,,,
+G11,Product_Mix_x_System,sa_rd_system_03,df_process,IND05,1897.92,1672.58,0.0,9565.0,1520.0,4,system_03,sa_rd,,,,,,
+G11,Product_Mix_x_System,sa_rd_system_03,df_process,IND06,68.66,83.85,0.0,336.0,1520.0,4,system_03,sa_rd,,,,,,
+G11,Product_Mix_x_System,sa_rd_system_03,df_experiments,economic_score,0.25,0.01,0.24,0.26,4.0,4,system_03,sa_rd,,,,,,
+G11,Product_Mix_x_System,sa_rd_system_03,df_experiments,environmental_score,0.15,0.02,0.13,0.17,4.0,4,system_03,sa_rd,,,,,,
+G11,Product_Mix_x_System,sa_rd_system_03,df_experiments,rank,,,,,0.0,4,system_03,sa_rd,,,,,,
+G11,Product_Mix_x_System,sa_rd_system_03,df_experiments,rank_all,84.25,11.73,71.0,96.0,4.0,4,system_03,sa_rd,,,,,,
+G11,Product_Mix_x_System,sa_rd_system_03,df_experiments,total_weighted_score,0.4,0.02,0.37,0.42,4.0,4,system_03,sa_rd,,,,,,
+G11,Product_Mix_x_System,sa_rd_system_05,df_process,IND01,0.09,0.05,0.0,0.2,1520.0,4,system_05,sa_rd,,,,,,
+G11,Product_Mix_x_System,sa_rd_system_05,df_resource,IND02,19.23,6.83,9.4,30.57,20.0,4,system_05,sa_rd,,,,,,
+G11,Product_Mix_x_System,sa_rd_system_05,df_process,IND03,11.69,6.59,0.11,25.85,1520.0,4,system_05,sa_rd,,,,,,
+G11,Product_Mix_x_System,sa_rd_system_05,df_product,IND04,288.66,74.62,147.0,496.0,160.0,4,system_05,sa_rd,,,,,,
+G11,Product_Mix_x_System,sa_rd_system_05,df_process,IND05,1897.92,1672.58,0.0,9565.0,1520.0,4,system_05,sa_rd,,,,,,
+G11,Product_Mix_x_System,sa_rd_system_05,df_process,IND06,68.66,83.85,0.0,336.0,1520.0,4,system_05,sa_rd,,,,,,
+G11,Product_Mix_x_System,sa_rd_system_05,df_experiments,economic_score,0.26,0.0,0.25,0.26,4.0,4,system_05,sa_rd,,,,,,
+G11,Product_Mix_x_System,sa_rd_system_05,df_experiments,environmental_score,0.15,0.02,0.13,0.17,4.0,4,system_05,sa_rd,,,,,,
+G11,Product_Mix_x_System,sa_rd_system_05,df_experiments,rank,,,,,0.0,4,system_05,sa_rd,,,,,,
+G11,Product_Mix_x_System,sa_rd_system_05,df_experiments,rank_all,80.5,12.79,66.0,94.0,4.0,4,system_05,sa_rd,,,,,,
+G11,Product_Mix_x_System,sa_rd_system_05,df_experiments,total_weighted_score,0.41,0.02,0.38,0.43,4.0,4,system_05,sa_rd,,,,,,
+G12,System_Type_x_Automation_x_Stations,line_a00_3,df_process,IND01,0.1,0.12,0.0,2.43,2583.0,6,,,,,3.0,line,a00,1.0
+G12,System_Type_x_Automation_x_Stations,line_a00_3,df_resource,IND02,43.08,24.9,4.95,85.43,18.0,6,,,,,3.0,line,a00,0.73
+G12,System_Type_x_Automation_x_Stations,line_a00_3,df_process,IND03,13.87,15.92,0.11,320.98,2583.0,6,,,,,3.0,line,a00,1.0
+G12,System_Type_x_Automation_x_Stations,line_a00_3,df_product,IND04,961.81,906.95,159.0,4735.0,240.0,6,,,,,3.0,line,a00,0.22
+G12,System_Type_x_Automation_x_Stations,line_a00_3,df_process,IND05,1981.32,1652.28,0.0,9565.0,2583.0,6,,,,,3.0,line,a00,0.49
+G12,System_Type_x_Automation_x_Stations,line_a00_3,df_process,IND06,74.08,86.39,0.0,336.0,2583.0,6,,,,,3.0,line,a00,0.54
+G12,System_Type_x_Automation_x_Stations,line_a00_5,df_process,IND01,0.1,0.12,0.0,3.93,2608.0,6,,,,,5.0,line,a00,0.93
+G12,System_Type_x_Automation_x_Stations,line_a00_5,df_resource,IND02,27.36,19.64,2.81,79.52,28.0,6,,,,,5.0,line,a00,0.31
+G12,System_Type_x_Automation_x_Stations,line_a00_5,df_process,IND03,13.57,15.78,0.11,518.87,2608.0,6,,,,,5.0,line,a00,0.93
+G12,System_Type_x_Automation_x_Stations,line_a00_5,df_product,IND04,968.58,1240.16,189.0,6004.0,240.0,6,,,,,5.0,line,a00,0.22
+G12,System_Type_x_Automation_x_Stations,line_a00_5,df_process,IND05,1978.56,1654.25,0.0,9565.0,2608.0,6,,,,,5.0,line,a00,0.47
+G12,System_Type_x_Automation_x_Stations,line_a00_5,df_process,IND06,74.02,86.46,0.0,336.0,2608.0,6,,,,,5.0,line,a00,0.53
+G12,System_Type_x_Automation_x_Stations,line_a02_3,df_process,IND01,0.09,0.11,0.0,2.43,2584.0,6,,,,,3.0,line,a02,0.66
+G12,System_Type_x_Automation_x_Stations,line_a02_3,df_resource,IND02,38.14,22.99,4.95,85.95,18.0,6,,,,,3.0,line,a02,0.6
+G12,System_Type_x_Automation_x_Stations,line_a02_3,df_process,IND03,12.28,14.27,0.11,320.98,2584.0,6,,,,,3.0,line,a02,0.64
+G12,System_Type_x_Automation_x_Stations,line_a02_3,df_product,IND04,836.18,890.71,144.0,4717.0,240.0,6,,,,,3.0,line,a02,0.18
+G12,System_Type_x_Automation_x_Stations,line_a02_3,df_process,IND05,1980.7,1652.26,0.0,9565.0,2584.0,6,,,,,3.0,line,a02,0.48
+G12,System_Type_x_Automation_x_Stations,line_a02_3,df_process,IND06,74.06,86.38,0.0,336.0,2584.0,6,,,,,3.0,line,a02,0.54
+G12,System_Type_x_Automation_x_Stations,line_a02_5,df_process,IND01,0.09,0.13,0.0,3.93,2583.0,6,,,,,5.0,line,a02,0.67
+G12,System_Type_x_Automation_x_Stations,line_a02_5,df_resource,IND02,24.68,17.71,2.81,72.83,28.0,6,,,,,5.0,line,a02,0.24
+G12,System_Type_x_Automation_x_Stations,line_a02_5,df_process,IND03,12.36,17.23,0.11,518.98,2583.0,6,,,,,5.0,line,a02,0.66
+G12,System_Type_x_Automation_x_Stations,line_a02_5,df_product,IND04,1141.46,1604.6,169.0,7404.0,240.0,6,,,,,5.0,line,a02,0.27
+G12,System_Type_x_Automation_x_Stations,line_a02_5,df_process,IND05,1989.01,1658.81,0.0,9565.0,2583.0,6,,,,,5.0,line,a02,0.52
+G12,System_Type_x_Automation_x_Stations,line_a02_5,df_process,IND06,74.46,86.7,0.0,336.0,2583.0,6,,,,,5.0,line,a02,0.57
+G12,System_Type_x_Automation_x_Stations,line_a04_3,df_process,IND01,0.08,0.09,0.0,2.37,2625.0,6,,,,,3.0,line,a04,0.33
+G12,System_Type_x_Automation_x_Stations,line_a04_3,df_resource,IND02,33.95,19.58,4.95,78.98,18.0,6,,,,,3.0,line,a04,0.48
+G12,System_Type_x_Automation_x_Stations,line_a04_3,df_process,IND03,10.76,11.22,0.11,312.18,2625.0,6,,,,,3.0,line,a04,0.31
+G12,System_Type_x_Automation_x_Stations,line_a04_3,df_product,IND04,641.12,598.28,144.0,3307.0,240.0,6,,,,,3.0,line,a04,0.12
+G12,System_Type_x_Automation_x_Stations,line_a04_3,df_process,IND05,1971.57,1651.17,0.0,9565.0,2625.0,6,,,,,3.0,line,a04,0.44
+G12,System_Type_x_Automation_x_Stations,line_a04_3,df_process,IND06,73.75,86.3,0.0,336.0,2625.0,6,,,,,3.0,line,a04,0.51
+G12,System_Type_x_Automation_x_Stations,line_a04_5,df_process,IND01,0.08,0.09,0.0,3.87,2622.0,6,,,,,5.0,line,a04,0.31
+G12,System_Type_x_Automation_x_Stations,line_a04_5,df_resource,IND02,21.57,13.33,2.81,62.81,28.0,6,,,,,5.0,line,a04,0.16
+G12,System_Type_x_Automation_x_Stations,line_a04_5,df_process,IND03,10.64,11.61,0.11,510.18,2622.0,6,,,,,5.0,line,a04,0.28
+G12,System_Type_x_Automation_x_Stations,line_a04_5,df_product,IND04,868.52,1165.48,167.0,5896.0,240.0,6,,,,,5.0,line,a04,0.19
+G12,System_Type_x_Automation_x_Stations,line_a04_5,df_process,IND05,1972.79,1651.71,0.0,9565.0,2622.0,6,,,,,5.0,line,a04,0.44
+G12,System_Type_x_Automation_x_Stations,line_a04_5,df_process,IND06,73.8,86.33,0.0,336.0,2622.0,6,,,,,5.0,line,a04,0.51
+G12,System_Type_x_Automation_x_Stations,line_a06_3,df_process,IND01,0.08,0.07,0.0,2.37,2625.0,6,,,,,3.0,line,a06,0.16
+G12,System_Type_x_Automation_x_Stations,line_a06_3,df_resource,IND02,31.6,19.92,3.1,71.5,18.0,6,,,,,3.0,line,a06,0.42
+G12,System_Type_x_Automation_x_Stations,line_a06_3,df_process,IND03,10.01,9.76,0.11,312.18,2625.0,6,,,,,3.0,line,a06,0.14
+G12,System_Type_x_Automation_x_Stations,line_a06_3,df_product,IND04,548.22,448.34,144.0,2980.0,240.0,6,,,,,3.0,line,a06,0.09
+G12,System_Type_x_Automation_x_Stations,line_a06_3,df_process,IND05,1971.57,1651.17,0.0,9565.0,2625.0,6,,,,,3.0,line,a06,0.44
+G12,System_Type_x_Automation_x_Stations,line_a06_3,df_process,IND06,73.75,86.3,0.0,336.0,2625.0,6,,,,,3.0,line,a06,0.51
+G12,System_Type_x_Automation_x_Stations,line_a06_5,df_process,IND01,0.08,0.08,0.0,3.87,2620.0,6,,,,,5.0,line,a06,0.15
+G12,System_Type_x_Automation_x_Stations,line_a06_5,df_resource,IND02,20.2,14.23,1.95,62.48,28.0,6,,,,,5.0,line,a06,0.12
+G12,System_Type_x_Automation_x_Stations,line_a06_5,df_process,IND03,9.97,11.05,0.11,510.18,2620.0,6,,,,,5.0,line,a06,0.13
+G12,System_Type_x_Automation_x_Stations,line_a06_5,df_product,IND04,901.83,1254.69,167.0,5928.0,240.0,6,,,,,5.0,line,a06,0.2
+G12,System_Type_x_Automation_x_Stations,line_a06_5,df_process,IND05,1973.62,1652.07,0.0,9565.0,2620.0,6,,,,,5.0,line,a06,0.45
+G12,System_Type_x_Automation_x_Stations,line_a06_5,df_process,IND06,73.82,86.35,0.0,336.0,2620.0,6,,,,,5.0,line,a06,0.52
+G12,System_Type_x_Automation_x_Stations,workshop_a00_4,df_process,IND01,0.1,0.06,0.0,0.2,2625.0,6,,,,,4.0,workshop,a00,0.84
+G12,System_Type_x_Automation_x_Stations,workshop_a00_4,df_resource,IND02,31.21,8.08,21.93,46.0,24.0,6,,,,,4.0,workshop,a00,0.41
+G12,System_Type_x_Automation_x_Stations,workshop_a00_4,df_process,IND03,13.18,7.44,0.11,25.85,2625.0,6,,,,,4.0,workshop,a00,0.85
+G12,System_Type_x_Automation_x_Stations,workshop_a00_4,df_product,IND04,324.73,98.43,162.0,557.0,240.0,6,,,,,4.0,workshop,a00,0.02
+G12,System_Type_x_Automation_x_Stations,workshop_a00_4,df_process,IND05,1971.57,1651.17,0.0,9565.0,2625.0,6,,,,,4.0,workshop,a00,0.44
+G12,System_Type_x_Automation_x_Stations,workshop_a00_4,df_process,IND06,73.75,86.3,0.0,336.0,2625.0,6,,,,,4.0,workshop,a00,0.51
+G12,System_Type_x_Automation_x_Stations,workshop_a00_5,df_process,IND01,0.1,0.06,0.0,0.2,2625.0,6,,,,,5.0,workshop,a00,0.84
+G12,System_Type_x_Automation_x_Stations,workshop_a00_5,df_resource,IND02,24.97,10.28,10.86,46.0,30.0,6,,,,,5.0,workshop,a00,0.25
+G12,System_Type_x_Automation_x_Stations,workshop_a00_5,df_process,IND03,13.18,7.44,0.11,25.85,2625.0,6,,,,,5.0,workshop,a00,0.85
+G12,System_Type_x_Automation_x_Stations,workshop_a00_5,df_product,IND04,324.06,98.28,162.0,549.0,240.0,6,,,,,5.0,workshop,a00,0.02
+G12,System_Type_x_Automation_x_Stations,workshop_a00_5,df_process,IND05,1971.57,1651.17,0.0,9565.0,2625.0,6,,,,,5.0,workshop,a00,0.44
+G12,System_Type_x_Automation_x_Stations,workshop_a00_5,df_process,IND06,73.75,86.3,0.0,336.0,2625.0,6,,,,,5.0,workshop,a00,0.51
+G12,System_Type_x_Automation_x_Stations,workshop_a02_4,df_process,IND01,0.09,0.06,0.0,0.2,2625.0,6,,,,,4.0,workshop,a02,0.56
+G12,System_Type_x_Automation_x_Stations,workshop_a02_4,df_resource,IND02,28.1,7.68,18.79,42.24,24.0,6,,,,,4.0,workshop,a02,0.33
+G12,System_Type_x_Automation_x_Stations,workshop_a02_4,df_process,IND03,11.87,7.8,0.11,25.85,2625.0,6,,,,,4.0,workshop,a02,0.55
+G12,System_Type_x_Automation_x_Stations,workshop_a02_4,df_product,IND04,317.76,98.73,147.0,574.0,240.0,6,,,,,4.0,workshop,a02,0.02
+G12,System_Type_x_Automation_x_Stations,workshop_a02_4,df_process,IND05,1971.57,1651.17,0.0,9565.0,2625.0,6,,,,,4.0,workshop,a02,0.44
+G12,System_Type_x_Automation_x_Stations,workshop_a02_4,df_process,IND06,73.75,86.3,0.0,336.0,2625.0,6,,,,,4.0,workshop,a02,0.51
+G12,System_Type_x_Automation_x_Stations,workshop_a02_5,df_process,IND01,0.09,0.06,0.0,0.2,2625.0,6,,,,,5.0,workshop,a02,0.56
+G12,System_Type_x_Automation_x_Stations,workshop_a02_5,df_resource,IND02,22.48,9.45,9.6,42.24,30.0,6,,,,,5.0,workshop,a02,0.18
+G12,System_Type_x_Automation_x_Stations,workshop_a02_5,df_process,IND03,11.87,7.8,0.11,25.85,2625.0,6,,,,,5.0,workshop,a02,0.55
+G12,System_Type_x_Automation_x_Stations,workshop_a02_5,df_product,IND04,315.08,96.31,144.0,537.0,240.0,6,,,,,5.0,workshop,a02,0.02
+G12,System_Type_x_Automation_x_Stations,workshop_a02_5,df_process,IND05,1971.57,1651.17,0.0,9565.0,2625.0,6,,,,,5.0,workshop,a02,0.44
+G12,System_Type_x_Automation_x_Stations,workshop_a02_5,df_process,IND06,73.75,86.3,0.0,336.0,2625.0,6,,,,,5.0,workshop,a02,0.51
+G12,System_Type_x_Automation_x_Stations,workshop_a04_4,df_process,IND01,0.08,0.05,0.0,0.2,2625.0,6,,,,,4.0,workshop,a04,0.26
+G12,System_Type_x_Automation_x_Stations,workshop_a04_4,df_resource,IND02,24.75,6.81,17.0,37.14,24.0,6,,,,,4.0,workshop,a04,0.24
+G12,System_Type_x_Automation_x_Stations,workshop_a04_4,df_process,IND03,10.45,6.29,0.11,25.85,2625.0,6,,,,,4.0,workshop,a04,0.24
+G12,System_Type_x_Automation_x_Stations,workshop_a04_4,df_product,IND04,309.57,101.03,147.0,645.0,240.0,6,,,,,4.0,workshop,a04,0.01
+G12,System_Type_x_Automation_x_Stations,workshop_a04_4,df_process,IND05,1971.57,1651.17,0.0,9565.0,2625.0,6,,,,,4.0,workshop,a04,0.44
+G12,System_Type_x_Automation_x_Stations,workshop_a04_4,df_process,IND06,73.75,86.3,0.0,336.0,2625.0,6,,,,,4.0,workshop,a04,0.51
+G12,System_Type_x_Automation_x_Stations,workshop_a04_5,df_process,IND01,0.08,0.05,0.0,0.2,2625.0,6,,,,,5.0,workshop,a04,0.26
+G12,System_Type_x_Automation_x_Stations,workshop_a04_5,df_resource,IND02,19.8,8.36,8.83,37.14,30.0,6,,,,,5.0,workshop,a04,0.11
+G12,System_Type_x_Automation_x_Stations,workshop_a04_5,df_process,IND03,10.45,6.29,0.11,25.85,2625.0,6,,,,,5.0,workshop,a04,0.24
+G12,System_Type_x_Automation_x_Stations,workshop_a04_5,df_product,IND04,303.81,91.47,144.0,532.0,240.0,6,,,,,5.0,workshop,a04,0.01
+G12,System_Type_x_Automation_x_Stations,workshop_a04_5,df_process,IND05,1971.57,1651.17,0.0,9565.0,2625.0,6,,,,,5.0,workshop,a04,0.44
+G12,System_Type_x_Automation_x_Stations,workshop_a04_5,df_process,IND06,73.75,86.3,0.0,336.0,2625.0,6,,,,,5.0,workshop,a04,0.51
+G12,System_Type_x_Automation_x_Stations,workshop_a06_4,df_process,IND01,0.07,0.04,0.0,0.13,2625.0,6,,,,,4.0,workshop,a06,0.11
+G12,System_Type_x_Automation_x_Stations,workshop_a06_4,df_resource,IND02,23.16,5.68,16.62,33.55,24.0,6,,,,,4.0,workshop,a06,0.2
+G12,System_Type_x_Automation_x_Stations,workshop_a06_4,df_process,IND03,9.78,5.16,0.11,17.82,2625.0,6,,,,,4.0,workshop,a06,0.09
+G12,System_Type_x_Automation_x_Stations,workshop_a06_4,df_product,IND04,304.5,97.61,147.0,625.0,240.0,6,,,,,4.0,workshop,a06,0.01
+G12,System_Type_x_Automation_x_Stations,workshop_a06_4,df_process,IND05,1971.57,1651.17,0.0,9565.0,2625.0,6,,,,,4.0,workshop,a06,0.44
+G12,System_Type_x_Automation_x_Stations,workshop_a06_4,df_process,IND06,73.75,86.3,0.0,336.0,2625.0,6,,,,,4.0,workshop,a06,0.51
+G12,System_Type_x_Automation_x_Stations,workshop_a06_5,df_process,IND01,0.07,0.04,0.0,0.13,2625.0,6,,,,,5.0,workshop,a06,0.11
+G12,System_Type_x_Automation_x_Stations,workshop_a06_5,df_resource,IND02,18.53,7.45,8.45,33.55,30.0,6,,,,,5.0,workshop,a06,0.07
+G12,System_Type_x_Automation_x_Stations,workshop_a06_5,df_process,IND03,9.78,5.16,0.11,17.82,2625.0,6,,,,,5.0,workshop,a06,0.09
+G12,System_Type_x_Automation_x_Stations,workshop_a06_5,df_product,IND04,299.56,89.08,144.0,525.0,240.0,6,,,,,5.0,workshop,a06,0.01
+G12,System_Type_x_Automation_x_Stations,workshop_a06_5,df_process,IND05,1971.57,1651.17,0.0,9565.0,2625.0,6,,,,,5.0,workshop,a06,0.44
+G12,System_Type_x_Automation_x_Stations,workshop_a06_5,df_process,IND06,73.75,86.3,0.0,336.0,2625.0,6,,,,,5.0,workshop,a06,0.51

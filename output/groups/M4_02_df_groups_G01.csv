@@ -1,0 +1,25 @@
+group_id,group_name,group_level,dataframe,indicator_id,mean,std,min,max,n_observations,n_experiments,system,product_mix,automation_degree,division_type,num_stations,system_type,automation_level,mean_normalized
+G01,By System,system_01,df_process,IND01,0.09,0.1,0.0,2.43,10417.0,24,system_01,,,,,,,0.54
+G01,By System,system_01,df_resource,IND02,36.69,21.94,3.1,85.95,72.0,24,system_01,,,,,,,0.56
+G01,By System,system_01,df_process,IND03,11.72,13.09,0.11,320.98,10417.0,24,system_01,,,,,,,0.52
+G01,By System,system_01,df_product,IND04,746.83,753.83,144.0,4735.0,960.0,24,system_01,,,,,,,0.15
+G01,By System,system_01,df_process,IND05,1976.25,1651.48,0.0,9565.0,10417.0,24,system_01,,,,,,,0.46
+G01,By System,system_01,df_process,IND06,73.91,86.33,0.0,336.0,10417.0,24,system_01,,,,,,,0.52
+G01,By System,system_02,df_process,IND01,0.09,0.05,0.0,0.2,10500.0,24,system_02,,,,,,,0.44
+G01,By System,system_02,df_resource,IND02,26.81,7.67,16.62,46.0,96.0,24,system_02,,,,,,,0.29
+G01,By System,system_02,df_process,IND03,11.32,6.88,0.11,25.85,10500.0,24,system_02,,,,,,,0.43
+G01,By System,system_02,df_product,IND04,314.14,99.11,147.0,645.0,960.0,24,system_02,,,,,,,0.01
+G01,By System,system_02,df_process,IND05,1971.57,1650.93,0.0,9565.0,10500.0,24,system_02,,,,,,,0.44
+G01,By System,system_02,df_process,IND06,73.75,86.29,0.0,336.0,10500.0,24,system_02,,,,,,,0.51
+G01,By System,system_03,df_process,IND01,0.09,0.11,0.0,3.93,10433.0,24,system_03,,,,,,,0.52
+G01,By System,system_03,df_resource,IND02,23.46,16.45,1.95,79.52,112.0,24,system_03,,,,,,,0.21
+G01,By System,system_03,df_process,IND03,11.63,14.22,0.11,518.98,10433.0,24,system_03,,,,,,,0.5
+G01,By System,system_03,df_product,IND04,970.1,1329.26,167.0,7404.0,960.0,24,system_03,,,,,,,0.22
+G01,By System,system_03,df_process,IND05,1978.46,1653.97,0.0,9565.0,10433.0,24,system_03,,,,,,,0.47
+G01,By System,system_03,df_process,IND06,74.02,86.45,0.0,336.0,10433.0,24,system_03,,,,,,,0.53
+G01,By System,system_05,df_process,IND01,0.09,0.05,0.0,0.2,10500.0,24,system_05,,,,,,,0.44
+G01,By System,system_05,df_resource,IND02,21.44,9.18,8.45,46.0,120.0,24,system_05,,,,,,,0.15
+G01,By System,system_05,df_process,IND03,11.32,6.88,0.11,25.85,10500.0,24,system_05,,,,,,,0.43
+G01,By System,system_05,df_product,IND04,310.63,94.2,144.0,549.0,960.0,24,system_05,,,,,,,0.01
+G01,By System,system_05,df_process,IND05,1971.57,1650.93,0.0,9565.0,10500.0,24,system_05,,,,,,,0.44
+G01,By System,system_05,df_process,IND06,73.75,86.29,0.0,336.0,10500.0,24,system_05,,,,,,,0.51

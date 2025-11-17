@@ -1,0 +1,97 @@
+system,step_id,product_type,branch_id,step_profit,step_revenue,step_cost,components,is_passive
+system_01,0,car_hd,main,0.0,0.0,0.0,CAR,False
+system_01,1,car_hd,main,752.11,765.0,12.89,BOSP,False
+system_01,2,car_hd,main,3641.83,3652.0,10.17,BAT,False
+system_01,3,car_hd,main,2246.25,2261.0,14.75,RT,False
+system_01,4,car_hd,main,2075.92,2087.0,11.08,"AXIS_GROUP_COMBINED, FT",False
+system_01,5,car_hd,main,8663.35,8696.0,32.65,"FRONT_AXIS_GROUP, REAR_AXIS_GROUP",False
+system_01,5_1_1,car_hd,front_axis,1640.71,1669.0,28.29,"FAX, SSA",False
+system_01,5_2_1,car_hd,rear_axis,4842.0,4870.0,28.0,CHS,False
+system_01,5_2_2,car_hd,rear_axis,1760.1,1783.0,22.9,"BSA, RAX_HD",False
+system_01,0,car_rd,main,0.0,0.0,0.0,CAR,False
+system_01,1,car_rd,main,752.21,765.0,12.79,BOSP,False
+system_01,2,car_rd,main,2246.25,2261.0,14.75,RT,False
+system_01,3,car_rd,main,9537.6,9565.0,27.4,CORE,False
+system_01,4,car_rd,main,5235.76,5261.0,25.24,"BSA, RAX_RD",False
+system_01,0,car_sa,main,0.0,0.0,0.0,CAR,False
+system_01,1,car_sa,main,2246.25,2261.0,14.75,RT,False
+system_01,2,car_sa,main,2075.92,2087.0,11.08,FT,False
+system_01,3,car_sa,main,339.13,365.0,25.87,SSA,False
+system_01,4,car_sa,main,3289.39,3313.0,23.61,"BSA, CSEB-NABS",False
+system_01,0,car_tl,main,0.0,0.0,0.0,CAR,False
+system_01,1,car_tl,main,751.94,765.0,13.06,BOSP,False
+system_01,2,car_tl,main,3641.83,3652.0,10.17,BAT,False
+system_01,3,car_tl,main,2246.25,2261.0,14.75,RT,False
+system_01,4,car_tl,main,2075.77,2087.0,11.23,"CRE, FT",False
+system_02,0,car_hd,main,0.0,0.0,0.0,CAR,False
+system_02,1,car_hd,main,752.21,765.0,12.79,BOSP,False
+system_02,2,car_hd,main,3641.83,3652.0,10.17,BAT,False
+system_02,3,car_hd,main,2246.25,2261.0,14.75,RT,False
+system_02,4,car_hd,main,2075.92,2087.0,11.08,"AXIS_GROUP_COMBINED, FT",False
+system_02,5,car_hd,main,8664.35,8696.0,31.65,"FRONT_AXIS_GROUP, REAR_AXIS_GROUP",False
+system_02,5_1_1,car_hd,front_axis,1642.98,1669.0,26.02,"FAX, SSA",False
+system_02,5_2_1,car_hd,rear_axis,4842.61,4870.0,27.4,CHS,False
+system_02,5_2_2,car_hd,rear_axis,1760.83,1783.0,22.169999999999998,"BSA, RAX_HD",False
+system_02,0,car_rd,main,0.0,0.0,0.0,CAR,False
+system_02,1,car_rd,main,752.21,765.0,12.79,BOSP,False
+system_02,2,car_rd,main,2246.25,2261.0,14.75,RT,False
+system_02,3,car_rd,main,9537.6,9565.0,27.4,CORE,False
+system_02,4,car_rd,main,5238.83,5261.0,22.169999999999998,"BSA, RAX_RD",False
+system_02,0,car_sa,main,0.0,0.0,0.0,CAR,False
+system_02,1,car_sa,main,2246.25,2261.0,14.75,RT,False
+system_02,2,car_sa,main,2075.92,2087.0,11.08,FT,False
+system_02,3,car_sa,main,339.13,365.0,25.87,SSA,False
+system_02,4,car_sa,main,3290.83,3313.0,22.169999999999998,"BSA, CSEB-NABS",False
+system_02,0,car_tl,main,0.0,0.0,0.0,CAR,False
+system_02,1,car_tl,main,752.21,765.0,12.79,BOSP,False
+system_02,2,car_tl,main,3641.83,3652.0,10.17,BAT,False
+system_02,3,car_tl,main,2246.25,2261.0,14.75,RT,False
+system_02,4,car_tl,main,2075.77,2087.0,11.23,"CRE, FT",False
+system_03,0,car_hd,main,0.0,0.0,0.0,CAR,False
+system_03,1,car_hd,main,752.21,765.0,12.79,BOSP,False
+system_03,2,car_hd,main,3641.83,3652.0,10.17,BAT,False
+system_03,3,car_hd,main,2246.25,2261.0,14.75,RT,False
+system_03,4,car_hd,main,2075.92,2087.0,11.08,"AXIS_GROUP_COMBINED, FT",False
+system_03,5,car_hd,main,8663.740000000002,8696.0,32.26,"FRONT_AXIS_GROUP, REAR_AXIS_GROUP",False
+system_03,5_1_1,car_hd,front_axis,1640.12,1669.0,28.88,"FAX, SSA",False
+system_03,5_2_1,car_hd,rear_axis,4842.61,4870.0,27.4,CHS,False
+system_03,5_2_2,car_hd,rear_axis,1760.01,1783.0,22.99,"BSA, RAX_HD",False
+system_03,0,car_rd,main,0.0,0.0,0.0,CAR,False
+system_03,1,car_rd,main,752.21,765.0,12.79,BOSP,False
+system_03,2,car_rd,main,2246.25,2261.0,14.75,RT,False
+system_03,3,car_rd,main,9537.6,9565.0,27.4,CORE,False
+system_03,4,car_rd,main,5238.83,5261.0,22.169999999999998,"BSA, RAX_RD",False
+system_03,0,car_sa,main,0.0,0.0,0.0,CAR,False
+system_03,1,car_sa,main,2246.25,2261.0,14.75,RT,False
+system_03,2,car_sa,main,2075.92,2087.0,11.08,FT,False
+system_03,3,car_sa,main,339.13,365.0,25.87,SSA,False
+system_03,4,car_sa,main,3290.83,3313.0,22.169999999999998,"BSA, CSEB-NABS",False
+system_03,0,car_tl,main,0.0,0.0,0.0,CAR,False
+system_03,1,car_tl,main,752.21,765.0,12.79,BOSP,False
+system_03,2,car_tl,main,3641.83,3652.0,10.17,BAT,False
+system_03,3,car_tl,main,2246.25,2261.0,14.75,RT,False
+system_03,4,car_tl,main,2075.77,2087.0,11.23,"CRE, FT",False
+system_05,0,car_hd,main,0.0,0.0,0.0,CAR,False
+system_05,1,car_hd,main,752.21,765.0,12.79,BOSP,False
+system_05,2,car_hd,main,3641.83,3652.0,10.17,BAT,False
+system_05,3,car_hd,main,2246.25,2261.0,14.75,RT,False
+system_05,4,car_hd,main,2075.92,2087.0,11.08,"AXIS_GROUP_COMBINED, FT",False
+system_05,5,car_hd,main,8664.35,8696.0,31.65,"FRONT_AXIS_GROUP, REAR_AXIS_GROUP",False
+system_05,5_1_1,car_hd,front_axis,1642.98,1669.0,26.02,"FAX, SSA",False
+system_05,5_2_1,car_hd,rear_axis,4842.61,4870.0,27.4,CHS,False
+system_05,5_2_2,car_hd,rear_axis,1760.83,1783.0,22.169999999999998,"BSA, RAX_HD",False
+system_05,0,car_rd,main,0.0,0.0,0.0,CAR,False
+system_05,1,car_rd,main,752.21,765.0,12.79,BOSP,False
+system_05,2,car_rd,main,2246.25,2261.0,14.75,RT,False
+system_05,3,car_rd,main,9537.6,9565.0,27.4,CORE,False
+system_05,4,car_rd,main,5238.83,5261.0,22.169999999999998,"BSA, RAX_RD",False
+system_05,0,car_sa,main,0.0,0.0,0.0,CAR,False
+system_05,1,car_sa,main,2246.25,2261.0,14.75,RT,False
+system_05,2,car_sa,main,2075.92,2087.0,11.08,FT,False
+system_05,3,car_sa,main,339.13,365.0,25.87,SSA,False
+system_05,4,car_sa,main,3290.83,3313.0,22.169999999999998,"BSA, CSEB-NABS",False
+system_05,0,car_tl,main,0.0,0.0,0.0,CAR,False
+system_05,1,car_tl,main,752.21,765.0,12.79,BOSP,False
+system_05,2,car_tl,main,3641.83,3652.0,10.17,BAT,False
+system_05,3,car_tl,main,2246.25,2261.0,14.75,RT,False
+system_05,4,car_tl,main,2075.77,2087.0,11.23,"CRE, FT",False

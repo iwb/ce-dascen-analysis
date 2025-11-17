@@ -1,0 +1,473 @@
+{
+  "description": "Process-dependent attributes. Resource (station) rates that vary by machine state (running/waiting/closed). Time-dependent costs calculated as: process_duration × rate. These attributes are tied to physical resources but vary based on process execution state.",
+  "stations": [
+    {
+      "system": "system_01",
+      "station_id": "ws-03_S1toS4",
+      "fixed_cost_per_hour": 21,
+      "fixed_cost_unit": "EUR/h",
+      "cost_rates": {
+        "running": {
+          "labor_rate": 66,
+          "labor_rate_unit": "EUR/h",
+          "power_rating": 0.5,
+          "power_rating_unit": "kW"
+        },
+        "waiting": {
+          "labor_rate": 66,
+          "labor_rate_unit": "EUR/h",
+          "power_rating": 0,
+          "power_rating_unit": "kW"
+        },
+        "closed": {
+          "labor_rate": 0,
+          "labor_rate_unit": "EUR/h",
+          "power_rating": 0,
+          "power_rating_unit": "kW"
+        }
+      }
+    },
+    {
+      "system": "system_01",
+      "station_id": "ws-04_S5S7",
+      "fixed_cost_per_hour": 21,
+      "fixed_cost_unit": "EUR/h",
+      "cost_rates": {
+        "running": {
+          "labor_rate": 66,
+          "labor_rate_unit": "EUR/h",
+          "power_rating": 0.5,
+          "power_rating_unit": "kW"
+        },
+        "waiting": {
+          "labor_rate": 66,
+          "labor_rate_unit": "EUR/h",
+          "power_rating": 0,
+          "power_rating_unit": "kW"
+        },
+        "closed": {
+          "labor_rate": 0,
+          "labor_rate_unit": "EUR/h",
+          "power_rating": 0,
+          "power_rating_unit": "kW"
+        }
+      }
+    },
+    {
+      "system": "system_01",
+      "station_id": "ws-05_S6S8",
+      "fixed_cost_per_hour": 21,
+      "fixed_cost_unit": "EUR/h",
+      "cost_rates": {
+        "running": {
+          "labor_rate": 66,
+          "labor_rate_unit": "EUR/h",
+          "power_rating": 0.5,
+          "power_rating_unit": "kW"
+        },
+        "waiting": {
+          "labor_rate": 66,
+          "labor_rate_unit": "EUR/h",
+          "power_rating": 0,
+          "power_rating_unit": "kW"
+        },
+        "closed": {
+          "labor_rate": 0,
+          "labor_rate_unit": "EUR/h",
+          "power_rating": 0,
+          "power_rating_unit": "kW"
+        }
+      }
+    },
+    {
+      "system": "system_02",
+      "station_id": "ws-01_S1toS8",
+      "fixed_cost_per_hour": 21,
+      "fixed_cost_unit": "EUR/h",
+      "cost_rates": {
+        "running": {
+          "labor_rate": 66,
+          "labor_rate_unit": "EUR/h",
+          "power_rating": 0.5,
+          "power_rating_unit": "kW"
+        },
+        "waiting": {
+          "labor_rate": 66,
+          "labor_rate_unit": "EUR/h",
+          "power_rating": 0,
+          "power_rating_unit": "kW"
+        },
+        "closed": {
+          "labor_rate": 0,
+          "labor_rate_unit": "EUR/h",
+          "power_rating": 0,
+          "power_rating_unit": "kW"
+        }
+      }
+    },
+    {
+      "system": "system_02",
+      "station_id": "ws-02_S1toS8",
+      "fixed_cost_per_hour": 21,
+      "fixed_cost_unit": "EUR/h",
+      "cost_rates": {
+        "running": {
+          "labor_rate": 66,
+          "labor_rate_unit": "EUR/h",
+          "power_rating": 0.5,
+          "power_rating_unit": "kW"
+        },
+        "waiting": {
+          "labor_rate": 66,
+          "labor_rate_unit": "EUR/h",
+          "power_rating": 0,
+          "power_rating_unit": "kW"
+        },
+        "closed": {
+          "labor_rate": 0,
+          "labor_rate_unit": "EUR/h",
+          "power_rating": 0,
+          "power_rating_unit": "kW"
+        }
+      }
+    },
+    {
+      "system": "system_02",
+      "station_id": "ws-03_S1toS8",
+      "fixed_cost_per_hour": 21,
+      "fixed_cost_unit": "EUR/h",
+      "cost_rates": {
+        "running": {
+          "labor_rate": 66,
+          "labor_rate_unit": "EUR/h",
+          "power_rating": 0.5,
+          "power_rating_unit": "kW"
+        },
+        "waiting": {
+          "labor_rate": 66,
+          "labor_rate_unit": "EUR/h",
+          "power_rating": 0,
+          "power_rating_unit": "kW"
+        },
+        "closed": {
+          "labor_rate": 0,
+          "labor_rate_unit": "EUR/h",
+          "power_rating": 0,
+          "power_rating_unit": "kW"
+        }
+      }
+    },
+    {
+      "system": "system_02",
+      "station_id": "ws-04_S1toS8",
+      "fixed_cost_per_hour": 21,
+      "fixed_cost_unit": "EUR/h",
+      "cost_rates": {
+        "running": {
+          "labor_rate": 66,
+          "labor_rate_unit": "EUR/h",
+          "power_rating": 0.5,
+          "power_rating_unit": "kW"
+        },
+        "waiting": {
+          "labor_rate": 66,
+          "labor_rate_unit": "EUR/h",
+          "power_rating": 0,
+          "power_rating_unit": "kW"
+        },
+        "closed": {
+          "labor_rate": 0,
+          "labor_rate_unit": "EUR/h",
+          "power_rating": 0,
+          "power_rating_unit": "kW"
+        }
+      }
+    },
+    {
+      "system": "system_02",
+      "station_id": "ws-05_S1toS8",
+      "fixed_cost_per_hour": 21,
+      "fixed_cost_unit": "EUR/h",
+      "cost_rates": {
+        "running": {
+          "labor_rate": 66,
+          "labor_rate_unit": "EUR/h",
+          "power_rating": 0.5,
+          "power_rating_unit": "kW"
+        },
+        "waiting": {
+          "labor_rate": 66,
+          "labor_rate_unit": "EUR/h",
+          "power_rating": 0,
+          "power_rating_unit": "kW"
+        },
+        "closed": {
+          "labor_rate": 0,
+          "labor_rate_unit": "EUR/h",
+          "power_rating": 0,
+          "power_rating_unit": "kW"
+        }
+      }
+    },
+    {
+      "system": "system_03",
+      "station_id": "ws-01_S1S2",
+      "fixed_cost_per_hour": 21,
+      "fixed_cost_unit": "EUR/h",
+      "cost_rates": {
+        "running": {
+          "labor_rate": 66,
+          "labor_rate_unit": "EUR/h",
+          "power_rating": 0.5,
+          "power_rating_unit": "kW"
+        },
+        "waiting": {
+          "labor_rate": 66,
+          "labor_rate_unit": "EUR/h",
+          "power_rating": 0,
+          "power_rating_unit": "kW"
+        },
+        "closed": {
+          "labor_rate": 0,
+          "labor_rate_unit": "EUR/h",
+          "power_rating": 0,
+          "power_rating_unit": "kW"
+        }
+      }
+    },
+    {
+      "system": "system_03",
+      "station_id": "ws-02_S3S4",
+      "fixed_cost_per_hour": 21,
+      "fixed_cost_unit": "EUR/h",
+      "cost_rates": {
+        "running": {
+          "labor_rate": 66,
+          "labor_rate_unit": "EUR/h",
+          "power_rating": 0.5,
+          "power_rating_unit": "kW"
+        },
+        "waiting": {
+          "labor_rate": 66,
+          "labor_rate_unit": "EUR/h",
+          "power_rating": 0,
+          "power_rating_unit": "kW"
+        },
+        "closed": {
+          "labor_rate": 0,
+          "labor_rate_unit": "EUR/h",
+          "power_rating": 0,
+          "power_rating_unit": "kW"
+        }
+      }
+    },
+    {
+      "system": "system_03",
+      "station_id": "ws-03_S5",
+      "fixed_cost_per_hour": 21,
+      "fixed_cost_unit": "EUR/h",
+      "cost_rates": {
+        "running": {
+          "labor_rate": 66,
+          "labor_rate_unit": "EUR/h",
+          "power_rating": 0.5,
+          "power_rating_unit": "kW"
+        },
+        "waiting": {
+          "labor_rate": 66,
+          "labor_rate_unit": "EUR/h",
+          "power_rating": 0,
+          "power_rating_unit": "kW"
+        },
+        "closed": {
+          "labor_rate": 0,
+          "labor_rate_unit": "EUR/h",
+          "power_rating": 0,
+          "power_rating_unit": "kW"
+        }
+      }
+    },
+    {
+      "system": "system_03",
+      "station_id": "ws-04_S7",
+      "fixed_cost_per_hour": 21,
+      "fixed_cost_unit": "EUR/h",
+      "cost_rates": {
+        "running": {
+          "labor_rate": 66,
+          "labor_rate_unit": "EUR/h",
+          "power_rating": 0.5,
+          "power_rating_unit": "kW"
+        },
+        "waiting": {
+          "labor_rate": 66,
+          "labor_rate_unit": "EUR/h",
+          "power_rating": 0,
+          "power_rating_unit": "kW"
+        },
+        "closed": {
+          "labor_rate": 0,
+          "labor_rate_unit": "EUR/h",
+          "power_rating": 0,
+          "power_rating_unit": "kW"
+        }
+      }
+    },
+    {
+      "system": "system_03",
+      "station_id": "ws-05_S6S8",
+      "fixed_cost_per_hour": 21,
+      "fixed_cost_unit": "EUR/h",
+      "cost_rates": {
+        "running": {
+          "labor_rate": 66,
+          "labor_rate_unit": "EUR/h",
+          "power_rating": 0.5,
+          "power_rating_unit": "kW"
+        },
+        "waiting": {
+          "labor_rate": 66,
+          "labor_rate_unit": "EUR/h",
+          "power_rating": 0,
+          "power_rating_unit": "kW"
+        },
+        "closed": {
+          "labor_rate": 0,
+          "labor_rate_unit": "EUR/h",
+          "power_rating": 0,
+          "power_rating_unit": "kW"
+        }
+      }
+    },
+    {
+      "system": "system_05",
+      "station_id": "ws-01_S1toS8",
+      "fixed_cost_per_hour": 21,
+      "fixed_cost_unit": "EUR/h",
+      "cost_rates": {
+        "running": {
+          "labor_rate": 66,
+          "labor_rate_unit": "EUR/h",
+          "power_rating": 0.5,
+          "power_rating_unit": "kW"
+        },
+        "waiting": {
+          "labor_rate": 66,
+          "labor_rate_unit": "EUR/h",
+          "power_rating": 0,
+          "power_rating_unit": "kW"
+        },
+        "closed": {
+          "labor_rate": 0,
+          "labor_rate_unit": "EUR/h",
+          "power_rating": 0,
+          "power_rating_unit": "kW"
+        }
+      }
+    },
+    {
+      "system": "system_05",
+      "station_id": "ws-02_S1toS8",
+      "fixed_cost_per_hour": 21,
+      "fixed_cost_unit": "EUR/h",
+      "cost_rates": {
+        "running": {
+          "labor_rate": 66,
+          "labor_rate_unit": "EUR/h",
+          "power_rating": 0.5,
+          "power_rating_unit": "kW"
+        },
+        "waiting": {
+          "labor_rate": 66,
+          "labor_rate_unit": "EUR/h",
+          "power_rating": 0,
+          "power_rating_unit": "kW"
+        },
+        "closed": {
+          "labor_rate": 0,
+          "labor_rate_unit": "EUR/h",
+          "power_rating": 0,
+          "power_rating_unit": "kW"
+        }
+      }
+    },
+    {
+      "system": "system_05",
+      "station_id": "ws-03_S1toS8",
+      "fixed_cost_per_hour": 21,
+      "fixed_cost_unit": "EUR/h",
+      "cost_rates": {
+        "running": {
+          "labor_rate": 66,
+          "labor_rate_unit": "EUR/h",
+          "power_rating": 0.5,
+          "power_rating_unit": "kW"
+        },
+        "waiting": {
+          "labor_rate": 66,
+          "labor_rate_unit": "EUR/h",
+          "power_rating": 0,
+          "power_rating_unit": "kW"
+        },
+        "closed": {
+          "labor_rate": 0,
+          "labor_rate_unit": "EUR/h",
+          "power_rating": 0,
+          "power_rating_unit": "kW"
+        }
+      }
+    },
+    {
+      "system": "system_05",
+      "station_id": "ws-04_S1toS8",
+      "fixed_cost_per_hour": 21,
+      "fixed_cost_unit": "EUR/h",
+      "cost_rates": {
+        "running": {
+          "labor_rate": 66,
+          "labor_rate_unit": "EUR/h",
+          "power_rating": 0.5,
+          "power_rating_unit": "kW"
+        },
+        "waiting": {
+          "labor_rate": 66,
+          "labor_rate_unit": "EUR/h",
+          "power_rating": 0,
+          "power_rating_unit": "kW"
+        },
+        "closed": {
+          "labor_rate": 0,
+          "labor_rate_unit": "EUR/h",
+          "power_rating": 0,
+          "power_rating_unit": "kW"
+        }
+      }
+    },
+    {
+      "system": "system_05",
+      "station_id": "ws-05_S1toS8",
+      "fixed_cost_per_hour": 21,
+      "fixed_cost_unit": "EUR/h",
+      "cost_rates": {
+        "running": {
+          "labor_rate": 66,
+          "labor_rate_unit": "EUR/h",
+          "power_rating": 0.5,
+          "power_rating_unit": "kW"
+        },
+        "waiting": {
+          "labor_rate": 66,
+          "labor_rate_unit": "EUR/h",
+          "power_rating": 0,
+          "power_rating_unit": "kW"
+        },
+        "closed": {
+          "labor_rate": 0,
+          "labor_rate_unit": "EUR/h",
+          "power_rating": 0,
+          "power_rating_unit": "kW"
+        }
+      }
+    }
+  ]
+}

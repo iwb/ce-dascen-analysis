@@ -1,0 +1,217 @@
+{
+  "description": "Disassembly path configuration with hierarchical step numbering. Step IDs use format: sequential (0,1,2,3...) or hierarchical (5_1_1, 5_2_1) for parallel branches. Each component has its own entry for direct lookup.",
+  "note": "step_id = hierarchical step identifier, step_name = component/operation name from simulation, branch_id = path identifier (main/front_axis/rear_axis), components_released = component obtained in this step",
+  "products": {
+    "car_hd": {
+      "description": "Heavy duty car - High-density variant with complex disassembly",
+      "disassembly_steps": [
+        {
+          "step_id": "0",
+          "step_name": "CAR",
+          "branch_id": "main",
+          "components_released": ["CAR_HD"]
+        },
+        {
+          "step_id": "1",
+          "step_name": "BOSP",
+          "branch_id": "main",
+          "components_released": ["BOSP"]
+        },
+        {
+          "step_id": "2",
+          "step_name": "BAT",
+          "branch_id": "main",
+          "components_released": ["BAT"]
+        },
+        {
+          "step_id": "3",
+          "step_name": "RT",
+          "branch_id": "main",
+          "components_released": ["RT"]
+        },
+        {
+          "step_id": "4",
+          "step_name": "FT",
+          "branch_id": "main",
+          "components_released": ["FT"]
+        },
+        {
+          "step_id": "4",
+          "step_name": "AXIS_GROUP_COMBINED",
+          "branch_id": "main",
+          "components_released": ["AXIS_GROUP_COMBINED"]
+        },
+        {
+          "step_id": "5",
+          "step_name": "FRONT_AXIS_GROUP",
+          "branch_id": "main",
+          "components_released": ["FRONT_AXIS_GROUP"],
+          "consumes": {"component": "AXIS_GROUP_COMBINED", "percentage": 0.5}
+        },
+        {
+          "step_id": "5",
+          "step_name": "REAR_AXIS_GROUP",
+          "branch_id": "main",
+          "components_released": ["REAR_AXIS_GROUP"],
+          "consumes": {"component": "AXIS_GROUP_COMBINED", "percentage": 0.5}
+        },
+        {
+          "step_id": "5_1_1",
+          "step_name": "SSA",
+          "branch_id": "front_axis",
+          "components_released": ["SSA"],
+          "consumes": {"component": "FRONT_AXIS_GROUP", "percentage": 0.5}
+        },
+        {
+          "step_id": "5_1_1",
+          "step_name": "FAX",
+          "branch_id": "front_axis",
+          "components_released": ["FAX"],
+          "consumes": {"component": "FRONT_AXIS_GROUP", "percentage": 0.5}
+        },
+        {
+          "step_id": "5_2_1",
+          "step_name": "CHS",
+          "branch_id": "rear_axis",
+          "components_released": ["CHS"],
+          "consumes": {"component": "REAR_AXIS_GROUP", "percentage": 1.0}
+        },
+        {
+          "step_id": "5_2_2",
+          "step_name": "BSA",
+          "branch_id": "rear_axis",
+          "components_released": ["BSA"]
+        },
+        {
+          "step_id": "5_2_2",
+          "step_name": "RAX_HD",
+          "branch_id": "rear_axis",
+          "components_released": ["RAX_HD"]
+        }
+      ]
+    },
+    "car_tl": {
+      "description": "Tail car - Optimized for rear-heavy configurations",
+      "disassembly_steps": [
+        {
+          "step_id": "0",
+          "step_name": "CAR",
+          "branch_id": "main",
+          "components_released": ["CAR_TL"]
+        },
+        {
+          "step_id": "1",
+          "step_name": "BOSP",
+          "branch_id": "main",
+          "components_released": ["BOSP"]
+        },
+        {
+          "step_id": "2",
+          "step_name": "BAT",
+          "branch_id": "main",
+          "components_released": ["BAT"]
+        },
+        {
+          "step_id": "3",
+          "step_name": "RT",
+          "branch_id": "main",
+          "components_released": ["RT"]
+        },
+        {
+          "step_id": "4",
+          "step_name": "FT",
+          "branch_id": "main",
+          "components_released": ["FT"]
+        },
+        {
+          "step_id": "4",
+          "step_name": "CRE",
+          "branch_id": "main",
+          "components_released": ["CRE"]
+        }
+      ]
+    },
+    "car_sa": {
+      "description": "Standard car - Balanced configuration",
+      "disassembly_steps": [
+        {
+          "step_id": "0",
+          "step_name": "CAR",
+          "branch_id": "main",
+          "components_released": ["CAR_SA"]
+        },
+        {
+          "step_id": "1",
+          "step_name": "RT",
+          "branch_id": "main",
+          "components_released": ["RT"]
+        },
+        {
+          "step_id": "2",
+          "step_name": "FT",
+          "branch_id": "main",
+          "components_released": ["FT"]
+        },
+        {
+          "step_id": "3",
+          "step_name": "SSA",
+          "branch_id": "main",
+          "components_released": ["SSA"]
+        },
+        {
+          "step_id": "4",
+          "step_name": "BSA",
+          "branch_id": "main",
+          "components_released": ["BSA"]
+        },
+        {
+          "step_id": "4",
+          "step_name": "CSEB-NABS",
+          "branch_id": "main",
+          "components_released": ["CSEB-NABS"]
+        }
+      ]
+    },
+    "car_rd": {
+      "description": "Road car - Performance-oriented variant",
+      "disassembly_steps": [
+        {
+          "step_id": "0",
+          "step_name": "CAR",
+          "branch_id": "main",
+          "components_released": ["CAR_RD"]
+        },
+        {
+          "step_id": "1",
+          "step_name": "BOSP",
+          "branch_id": "main",
+          "components_released": ["BOSP"]
+        },
+        {
+          "step_id": "2",
+          "step_name": "RT",
+          "branch_id": "main",
+          "components_released": ["RT"]
+        },
+        {
+          "step_id": "3",
+          "step_name": "CORE",
+          "branch_id": "main",
+          "components_released": ["CORE"]
+        },
+        {
+          "step_id": "4",
+          "step_name": "BSA",
+          "branch_id": "main",
+          "components_released": ["BSA"]
+        },
+        {
+          "step_id": "4",
+          "step_name": "RAX_RD",
+          "branch_id": "main",
+          "components_released": ["RAX_RD"]
+        }
+      ]
+    }
+  }
+}

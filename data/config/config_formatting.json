@@ -1,0 +1,23 @@
+{
+  "description": "Formatting, display, and naming convention configuration for the analytics framework",
+  "version": "1.0",
+  "metadata": {
+    "created": "2025-01-12",
+    "purpose": "Centralizes all cross-module formatting and display settings to achieve 100% config-driven architecture"
+  },
+  "output_formatting": {
+    "precision_decimals": 2,
+    "score_precision": 4,
+    "description": "Decimal precision for numeric output rounding"
+  },
+  "console_output": {
+    "separator_width": 70,
+    "top_n_display": 3,
+    "description": "Console display parameters for ranking summaries"
+  },
+  "naming_conventions": {
+    "prefix_car_component": "CAR_",
+    "system_baseline_label": "SYSTEM_BASELINE",
+    "description": "Standard naming prefixes and labels used throughout the system"
+  }
+}

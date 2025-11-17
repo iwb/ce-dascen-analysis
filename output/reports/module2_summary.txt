@@ -1,0 +1,17 @@
+======================================================================
+  MODULE 2: EXPERIMENT AGGREGATION SUMMARY
+======================================================================
+
+Total Experiments: 96
+Feasible Experiments: 28 (29.2%)
+Infeasible Experiments: 68 (70.8%)
+
+Threshold Violations by Indicator:
+  IND01: 0 violations (0.0%)
+  IND02: 68 violations (70.8%)
+  IND03: 0 violations (0.0%)
+  IND04: 0 violations (0.0%)
+  IND05: 0 violations (0.0%)
+  IND06: 0 violations (0.0%)
+
+======================================================================

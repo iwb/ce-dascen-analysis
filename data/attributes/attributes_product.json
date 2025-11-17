@@ -1,0 +1,325 @@
+{
+  "description": "Product-dependent attributes. Component specifications with quality-dependent values (0.0-1.0). Fixed attributes are constant per component type; quality-dependent attributes vary based on component quality assessment.",
+  "components": [
+    {
+      "component_name": "BOSP",
+      "fixed_attributes": {
+        "weight": {"value": 43.4, "unit": "kg"}
+      },
+      "quality_dependent_attributes": {
+        "component_value": [
+          {"quality_min": 0.0, "quality_max": 1.0, "value": 765, "unit": "EUR"}
+        ]
+      },
+      "end_of_life_options": {
+        "recycle": {"quality_min": 0.0, "quality_max": 1.0, "circularity_rating": 0.29, "unit": "decimal"}
+      }
+    },
+    {
+      "component_name": "BAT",
+      "fixed_attributes": {
+        "weight": {"value": 221.7, "unit": "kg"}
+      },
+      "quality_dependent_attributes": {
+        "component_value": [
+          {"quality_min": 0.0, "quality_max": 0.79, "value": 730, "unit": "EUR"},
+          {"quality_min": 0.8, "quality_max": 0.99, "value": 1826, "unit": "EUR"},
+          {"quality_min": 1.0, "quality_max": 1.0, "value": 3652, "unit": "EUR"}
+        ]
+      },
+      "end_of_life_options": {
+        "recycle": {"quality_min": 0.0, "quality_max": 0.79, "circularity_rating": 0.29, "unit": "decimal"},
+        "remanufacture": {"quality_min": 0.8, "quality_max": 0.99, "circularity_rating": 0.57, "unit": "decimal"},
+        "reuse": {"quality_min": 1.0, "quality_max": 1.0, "circularity_rating": 1.0, "unit": "decimal"}
+      }
+    },
+    {
+      "component_name": "RT",
+      "fixed_attributes": {
+        "weight": {"value": 79.2, "unit": "kg"}
+      },
+      "quality_dependent_attributes": {
+        "component_value": [
+          {"quality_min": 0.0, "quality_max": 0.79, "value": 452, "unit": "EUR"},
+          {"quality_min": 0.8, "quality_max": 0.99, "value": 1131, "unit": "EUR"},
+          {"quality_min": 1.0, "quality_max": 1.0, "value": 2261, "unit": "EUR"}
+        ]
+      },
+      "end_of_life_options": {
+        "recycle": {"quality_min": 0.0, "quality_max": 0.79, "circularity_rating": 0.29, "unit": "decimal"},
+        "remanufacture": {"quality_min": 0.8, "quality_max": 0.99, "circularity_rating": 0.57, "unit": "decimal"},
+        "reuse": {"quality_min": 1.0, "quality_max": 1.0, "circularity_rating": 1.0, "unit": "decimal"}
+      }
+    },
+    {
+      "component_name": "FT",
+      "fixed_attributes": {
+        "weight": {"value": 54.1, "unit": "kg"}
+      },
+      "quality_dependent_attributes": {
+        "component_value": [
+          {"quality_min": 0.0, "quality_max": 0.79, "value": 417, "unit": "EUR"},
+          {"quality_min": 0.8, "quality_max": 0.99, "value": 1044, "unit": "EUR"},
+          {"quality_min": 1.0, "quality_max": 1.0, "value": 2087, "unit": "EUR"}
+        ]
+      },
+      "end_of_life_options": {
+        "recycle": {"quality_min": 0.0, "quality_max": 0.79, "circularity_rating": 0.29, "unit": "decimal"},
+        "remanufacture": {"quality_min": 0.8, "quality_max": 0.99, "circularity_rating": 0.57, "unit": "decimal"},
+        "reuse": {"quality_min": 1.0, "quality_max": 1.0, "circularity_rating": 1.0, "unit": "decimal"}
+      }
+    },
+    {
+      "component_name": "FRONT_AXIS_GROUP",
+      "fixed_attributes": {
+        "weight": {"value": 86.9, "unit": "kg"}
+      },
+      "quality_dependent_attributes": {
+        "component_value": [
+          {"quality_min": 0.0, "quality_max": 0.79, "value": 870, "unit": "EUR"},
+          {"quality_min": 0.8, "quality_max": 0.99, "value": 2174, "unit": "EUR"},
+          {"quality_min": 1.0, "quality_max": 1.0, "value": 4348, "unit": "EUR"}
+        ]
+      },
+      "end_of_life_options": {
+        "recycle": {"quality_min": 0.0, "quality_max": 0.79, "circularity_rating": 0.29, "unit": "decimal"},
+        "remanufacture": {"quality_min": 0.8, "quality_max": 0.99, "circularity_rating": 0.57, "unit": "decimal"},
+        "reuse": {"quality_min": 1.0, "quality_max": 1.0, "circularity_rating": 1.0, "unit": "decimal"}
+      }
+    },
+    {
+      "component_name": "REAR_AXIS_GROUP",
+      "fixed_attributes": {
+        "weight": {"value": 280.4, "unit": "kg"}
+      },
+      "quality_dependent_attributes": {
+        "component_value": [
+          {"quality_min": 0.0, "quality_max": 0.79, "value": 870, "unit": "EUR"},
+          {"quality_min": 0.8, "quality_max": 0.99, "value": 2174, "unit": "EUR"},
+          {"quality_min": 1.0, "quality_max": 1.0, "value": 4348, "unit": "EUR"}
+        ]
+      },
+      "end_of_life_options": {
+        "recycle": {"quality_min": 0.0, "quality_max": 0.79, "circularity_rating": 0.29, "unit": "decimal"},
+        "remanufacture": {"quality_min": 0.8, "quality_max": 0.99, "circularity_rating": 0.57, "unit": "decimal"},
+        "reuse": {"quality_min": 1.0, "quality_max": 1.0, "circularity_rating": 1.0, "unit": "decimal"}
+      }
+    },
+    {
+      "component_name": "SSA",
+      "fixed_attributes": {
+        "weight": {"value": 8.4, "unit": "kg"}
+      },
+      "quality_dependent_attributes": {
+        "component_value": [
+          {"quality_min": 0.0, "quality_max": 1.0, "value": 365, "unit": "EUR"}
+        ]
+      },
+      "end_of_life_options": {
+        "recycle": {"quality_min": 0.0, "quality_max": 1.0, "circularity_rating": 0.29, "unit": "decimal"}
+      }
+    },
+    {
+      "component_name": "CHS",
+      "fixed_attributes": {
+        "weight": {"value": 231.6, "unit": "kg"}
+      },
+      "quality_dependent_attributes": {
+        "component_value": [
+          {"quality_min": 0.0, "quality_max": 0.79, "value": 974, "unit": "EUR"},
+          {"quality_min": 0.8, "quality_max": 0.99, "value": 2435, "unit": "EUR"},
+          {"quality_min": 1.0, "quality_max": 1.0, "value": 4870, "unit": "EUR"}
+        ]
+      },
+      "end_of_life_options": {
+        "recycle": {"quality_min": 0.0, "quality_max": 0.79, "circularity_rating": 0.29, "unit": "decimal"},
+        "remanufacture": {"quality_min": 0.8, "quality_max": 0.99, "circularity_rating": 0.57, "unit": "decimal"},
+        "reuse": {"quality_min": 1.0, "quality_max": 1.0, "circularity_rating": 1.0, "unit": "decimal"}
+      }
+    },
+    {
+      "component_name": "BSA",
+      "fixed_attributes": {
+        "weight": {"value": 8.4, "unit": "kg"}
+      },
+      "quality_dependent_attributes": {
+        "component_value": [
+          {"quality_min": 0.0, "quality_max": 0.79, "value": 365, "unit": "EUR"},
+          {"quality_min": 0.8, "quality_max": 1.0, "value": 913, "unit": "EUR"}
+        ]
+      },
+      "end_of_life_options": {
+        "recycle": {"quality_min": 0.0, "quality_max": 0.79, "circularity_rating": 0.29, "unit": "decimal"},
+        "remanufacture": {"quality_min": 0.8, "quality_max": 1.0, "circularity_rating": 0.57, "unit": "decimal"}
+      }
+    },
+    {
+      "component_name": "CORE",
+      "fixed_attributes": {
+        "weight": {"value": 336.0, "unit": "kg"}
+      },
+      "quality_dependent_attributes": {
+        "component_value": [
+          {"quality_min": 0.0, "quality_max": 0.79, "value": 1913, "unit": "EUR"},
+          {"quality_min": 0.8, "quality_max": 0.99, "value": 4783, "unit": "EUR"},
+          {"quality_min": 1.0, "quality_max": 1.0, "value": 9565, "unit": "EUR"}
+        ]
+      },
+      "end_of_life_options": {
+        "recycle": {"quality_min": 0.0, "quality_max": 0.79, "circularity_rating": 0.29, "unit": "decimal"},
+        "remanufacture": {"quality_min": 0.8, "quality_max": 0.99, "circularity_rating": 0.57, "unit": "decimal"},
+        "reuse": {"quality_min": 1.0, "quality_max": 1.0, "circularity_rating": 1.0, "unit": "decimal"}
+      }
+    },
+    {
+      "component_name": "AXIS_GROUP_COMBINED",
+      "fixed_attributes": {
+        "weight": {"value": 362.7, "unit": "kg"}
+      },
+      "quality_dependent_attributes": {
+        "component_value": [
+          {"quality_min": 0.0, "quality_max": 1.0, "value": 1635, "unit": "EUR"}
+        ]
+      },
+      "end_of_life_options": {
+        "recycle": {"quality_min": 0.0, "quality_max": 1.0, "circularity_rating": 0.29, "unit": "decimal"}
+      }
+    },
+    {
+      "component_name": "CSEB-NABS",
+      "fixed_attributes": {
+        "weight": {"value": 610.4, "unit": "kg"}
+      },
+      "quality_dependent_attributes": {
+        "component_value": [
+          {"quality_min": 0.0, "quality_max": 1.0, "value": 2400, "unit": "EUR"}
+        ]
+      },
+      "end_of_life_options": {
+        "recycle": {"quality_min": 0.0, "quality_max": 1.0, "circularity_rating": 0.29, "unit": "decimal"}
+      }
+    },
+    {
+      "component_name": "FAXS",
+      "fixed_attributes": {
+        "weight": {"value": 86.9, "unit": "kg"}
+      },
+      "quality_dependent_attributes": {
+        "component_value": [
+          {"quality_min": 0.0, "quality_max": 0.79, "value": 870, "unit": "EUR"},
+          {"quality_min": 0.8, "quality_max": 0.99, "value": 2174, "unit": "EUR"},
+          {"quality_min": 1.0, "quality_max": 1.0, "value": 4348, "unit": "EUR"}
+        ]
+      },
+      "end_of_life_options": {
+        "recycle": {"quality_min": 0.0, "quality_max": 0.79, "circularity_rating": 0.29, "unit": "decimal"},
+        "remanufacture": {"quality_min": 0.8, "quality_max": 0.99, "circularity_rating": 0.57, "unit": "decimal"},
+        "reuse": {"quality_min": 1.0, "quality_max": 1.0, "circularity_rating": 1.0, "unit": "decimal"}
+      }
+    },
+    {
+      "component_name": "FAX",
+      "fixed_attributes": {
+        "weight": {"value": 78.5, "unit": "kg"}
+      },
+      "quality_dependent_attributes": {
+        "component_value": [
+          {"quality_min": 0.0, "quality_max": 0.79, "value": 522, "unit": "EUR"},
+          {"quality_min": 0.8, "quality_max": 1.0, "value": 1304, "unit": "EUR"}
+        ]
+      },
+      "end_of_life_options": {
+        "recycle": {"quality_min": 0.0, "quality_max": 0.79, "circularity_rating": 0.29, "unit": "decimal"},
+        "remanufacture": {"quality_min": 0.8, "quality_max": 1.0, "circularity_rating": 0.57, "unit": "decimal"}
+      }
+    },
+    {
+      "component_name": "RAX_HD",
+      "fixed_attributes": {
+        "weight": {"value": 280.4, "unit": "kg"}
+      },
+      "quality_dependent_attributes": {
+        "component_value": [
+          {"quality_min": 0.0, "quality_max": 1.0, "value": 870, "unit": "EUR"}
+        ]
+      },
+      "end_of_life_options": {
+        "recycle": {"quality_min": 0.0, "quality_max": 1.0, "circularity_rating": 0.29, "unit": "decimal"}
+      }
+    },
+    {
+      "component_name": "RAX_RD",
+      "fixed_attributes": {
+        "weight": {"value": 280.4, "unit": "kg"}
+      },
+      "quality_dependent_attributes": {
+        "component_value": [
+          {"quality_min": 0.0, "quality_max": 0.79, "value": 870, "unit": "EUR"},
+          {"quality_min": 0.8, "quality_max": 0.99, "value": 2174, "unit": "EUR"},
+          {"quality_min": 1.0, "quality_max": 1.0, "value": 4348, "unit": "EUR"}
+        ]
+      },
+      "end_of_life_options": {
+        "recycle": {"quality_min": 0.0, "quality_max": 0.79, "circularity_rating": 0.29, "unit": "decimal"},
+        "remanufacture": {"quality_min": 0.8, "quality_max": 0.99, "circularity_rating": 0.57, "unit": "decimal"},
+        "reuse": {"quality_min": 1.0, "quality_max": 1.0, "circularity_rating": 1.0, "unit": "decimal"}
+      }
+    },
+    {
+      "component_name": "CAR_HD",
+      "fixed_attributes": {
+        "weight": {"value": 762, "unit": "kg"}
+      },
+      "quality_dependent_attributes": {
+        "component_value": [
+          {"quality_min": 0.0, "quality_max": 1.0, "value": -4000, "unit": "EUR"}
+        ]
+      },
+      "end_of_life_options": {
+        "recycle": {"quality_min": 0.0, "quality_max": 1.0, "circularity_rating": 0.0, "unit": "decimal"}
+      }
+    },
+    {
+      "component_name": "CAR_TL",
+      "fixed_attributes": {
+        "weight": {"value": 762, "unit": "kg"}
+      },
+      "quality_dependent_attributes": {
+        "component_value": [
+          {"quality_min": 0.0, "quality_max": 1.0, "value": -4000, "unit": "EUR"}
+        ]
+      },
+      "end_of_life_options": {
+        "recycle": {"quality_min": 0.0, "quality_max": 1.0, "circularity_rating": 0.0, "unit": "decimal"}
+      }
+    },
+    {
+      "component_name": "CAR_SA",
+      "fixed_attributes": {
+        "weight": {"value": 762, "unit": "kg"}
+      },
+      "quality_dependent_attributes": {
+        "component_value": [
+          {"quality_min": 0.0, "quality_max": 1.0, "value": -10000, "unit": "EUR"}
+        ]
+      },
+      "end_of_life_options": {
+        "recycle": {"quality_min": 0.0, "quality_max": 1.0, "circularity_rating": 0.0, "unit": "decimal"}
+      }
+    },
+    {
+      "component_name": "CAR_RD",
+      "fixed_attributes": {
+        "weight": {"value": 762, "unit": "kg"}
+      },
+      "quality_dependent_attributes": {
+        "component_value": [
+          {"quality_min": 0.0, "quality_max": 1.0, "value": -10000, "unit": "EUR"}
+        ]
+      },
+      "end_of_life_options": {
+        "recycle": {"quality_min": 0.0, "quality_max": 1.0, "circularity_rating": 0.0, "unit": "decimal"}
+      }
+    }
+  ]
+}

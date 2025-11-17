@@ -1,0 +1,160 @@
+{
+  "indicators": [
+    {
+      "indicator_id": "IND01",
+      "indicator_name": "electricity_consumption",
+      "description": "Electricity consumption per component",
+      "indicator_type": "process",
+      "calculation_level": "component",
+      "target_dataframe": "df_process",
+      "formula": "process_duration/60*power_rating",
+      "aggregation": "sum",
+      "unit": "kWh",
+      "weight": 0.166,
+      "category": "environmental",
+      "threshold": 45000,
+      "direction": "minimize",
+      "indicator_variables": {
+        "process_duration": {
+          "source": "dataframe",
+          "column": "process_duration"
+        },
+        "power_rating": {
+          "source": "attribute_file",
+          "file": "attributes_process.json",
+          "lookup_columns": ["system", "station_id"],
+          "value_path": "cost_rates.running.power_rating"
+        }
+      }
+    },
+    {
+      "indicator_id": "IND02",
+      "indicator_name": "utilization_rate",
+      "description": "Resource utilization rate",
+      "indicator_type": "resource",
+      "calculation_level": "resource",
+      "target_dataframe": "df_resource",
+      "formula": "runtime_minutes/factory_open_time_minutes*100",
+      "aggregation": "mean",
+      "unit": "%",
+      "weight": 0.166,
+      "category": "economic",
+      "threshold": 30,
+      "direction": "maximize",
+      "indicator_variables": {
+        "runtime_minutes": {
+          "source": "dataframe",
+          "column": "runtime_minutes"
+        },
+        "factory_open_time_minutes": {
+          "source": "dataframe",
+          "column": "factory_open_time_minutes"
+        }
+      }
+    },
+    {
+      "indicator_id": "IND03",
+      "indicator_name": "labor_cost",
+      "description": "Labor cost per component",
+      "indicator_type": "process",
+      "calculation_level": "component",
+      "target_dataframe": "df_process",
+      "formula": "process_duration/60*labor_rate",
+      "aggregation": "sum",
+      "unit": "EUR",
+      "weight": 0.166,
+      "category": "economic",
+      "threshold": 18000,
+      "direction": "minimize",
+      "indicator_variables": {
+        "process_duration": {
+          "source": "dataframe",
+          "column": "process_duration"
+        },
+        "labor_rate": {
+          "source": "attribute_file",
+          "file": "attributes_process.json",
+          "lookup_columns": ["system", "station_id"],
+          "value_path": "cost_rates.running.labor_rate"
+        }
+      }
+    },
+    {
+      "indicator_id": "IND04",
+      "indicator_name": "lead_time",
+      "description": "Lead time per product",
+      "indicator_type": "product",
+      "calculation_level": "product",
+      "target_dataframe": "df_product",
+      "formula": "lead_time",
+      "aggregation": "mean",
+      "unit": "minutes",
+      "weight": 0.166,
+      "category": "economic",
+      "threshold": 13100,
+      "direction": "minimize",
+      "indicator_variables": {
+        "lead_time": {
+          "source": "dataframe",
+          "column": "lead_time"
+        }
+      }
+    },
+    {
+      "indicator_id": "IND05",
+      "indicator_name": "production_output",
+      "description": "Component value based on quality",
+      "indicator_type": "product",
+      "calculation_level": "component",
+      "target_dataframe": "df_process",
+      "formula": "component_value",
+      "aggregation": "sum",
+      "unit": "EUR",
+      "weight": 0.166,
+      "category": "economic",
+      "threshold": 6000,
+      "direction": "maximize",
+      "indicator_variables": {
+        "component_value": {
+          "source": "quality_range",
+          "file": "attributes_product.json",
+          "lookup_column": "step_name",
+          "quality_column": "quality",
+          "value_path": "quality_dependent_attributes.component_value",
+          "value_key": "value"
+        }
+      }
+    },
+    {
+      "indicator_id": "IND06",
+      "indicator_name": "circularity_index",
+      "description": "Mass-weighted circular economy index (component weight × circularity rating)",
+      "indicator_type": "product",
+      "calculation_level": "component",
+      "target_dataframe": "df_process",
+      "formula": "component_weight*circularity_rating",
+      "aggregation": "sum",
+      "unit": "kg",
+      "weight": 0.166,
+      "category": "environmental",
+      "threshold": 400,
+      "direction": "maximize",
+      "indicator_variables": {
+        "component_weight": {
+          "source": "attribute_file",
+          "file": "attributes_product.json",
+          "lookup_columns": ["step_name"],
+          "value_path": "fixed_attributes.weight.value"
+        },
+        "circularity_rating": {
+          "source": "quality_threshold",
+          "file": "attributes_product.json",
+          "lookup_column": "step_name",
+          "quality_column": "quality",
+          "value_path": "end_of_life_options",
+          "value_key": "circularity_rating"
+        }
+      }
+    }
+  ]
+}

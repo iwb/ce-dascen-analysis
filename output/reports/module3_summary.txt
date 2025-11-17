@@ -1,0 +1,109 @@
+======================================================================
+  MODULE 3: RANKING & WEIGHTING SUMMARY
+======================================================================
+
+Indicator Weights:
+  IND01 (electricity_consumption): 0.17 (17%)
+  IND02 (utilization_rate): 0.17 (17%)
+  IND03 (labor_cost): 0.17 (17%)
+  IND04 (lead_time): 0.17 (17%)
+  IND05 (production_output): 0.17 (17%)
+  IND06 (circularity_index): 0.17 (17%)
+  Total: 1.00 (100%)
+
+ALL Experiments Ranked: 96
+
+Top 3 Experiments (All):
+  Rank 1: exp004 [OK] (score: 0.6922, system: system_01, mix: hd)
+  Rank 2: exp012 [OK] (score: 0.6656, system: system_02, mix: hd)
+  Rank 3: exp003 [OK] (score: 0.6541, system: system_01, mix: hd)
+
+Feasible Experiments ONLY: 28/96
+
+Top 3 Feasible Experiments:
+  Rank 1: exp004 (score: 0.6922, rank_all: 1, system: system_01, mix: hd)
+  Rank 2: exp012 (score: 0.6656, rank_all: 2, system: system_02, mix: hd)
+  Rank 3: exp003 (score: 0.6541, rank_all: 3, system: system_01, mix: hd)
+
+Bottom 3 Feasible Experiments:
+  Rank 26: exp065 (score: 0.4283, rank_all: 63)
+  Rank 27: exp017 (score: 0.4134, rank_all: 80)
+  Rank 28: exp018 (score: 0.3834, rank_all: 93)
+
+Score Statistics (Feasible):
+  Mean: 0.5380
+  Std: 0.0830
+  Min: 0.3834
+  Max: 0.6922
+
+Infeasible Experiments: 68
+  Rank_all 5: exp028 (score: 0.6274)
+  Rank_all 9: exp027 (score: 0.6025)
+  Rank_all 14: exp040 (score: 0.5728)
+  Rank_all 16: exp039 (score: 0.5594)
+  Rank_all 20: exp048 (score: 0.5445)
+  Rank_all 21: exp044 (score: 0.5329)
+  Rank_all 22: exp008 (score: 0.5314)
+  Rank_all 23: exp047 (score: 0.5279)
+  Rank_all 26: exp043 (score: 0.5163)
+  Rank_all 27: exp046 (score: 0.5112)
+  Rank_all 29: exp016 (score: 0.4948)
+  Rank_all 31: exp015 (score: 0.4881)
+  Rank_all 32: exp045 (score: 0.4864)
+  Rank_all 33: exp020 (score: 0.4863)
+  Rank_all 33: exp084 (score: 0.4863)
+  Rank_all 35: exp052 (score: 0.4830)
+  Rank_all 36: exp083 (score: 0.4814)
+  Rank_all 37: exp051 (score: 0.4797)
+  Rank_all 38: exp014 (score: 0.4748)
+  Rank_all 39: exp042 (score: 0.4732)
+  Rank_all 41: exp032 (score: 0.4715)
+  Rank_all 42: exp024 (score: 0.4682)
+  Rank_all 43: exp031 (score: 0.4615)
+  Rank_all 45: exp013 (score: 0.4582)
+  Rank_all 45: exp023 (score: 0.4582)
+  Rank_all 48: exp068 (score: 0.4548)
+  Rank_all 50: exp067 (score: 0.4531)
+  Rank_all 51: exp056 (score: 0.4515)
+  Rank_all 54: exp088 (score: 0.4497)
+  Rank_all 55: exp055 (score: 0.4465)
+  Rank_all 55: exp060 (score: 0.4465)
+  Rank_all 55: exp066 (score: 0.4465)
+  Rank_all 58: exp030 (score: 0.4449)
+  Rank_all 59: exp087 (score: 0.4448)
+  Rank_all 60: exp059 (score: 0.4415)
+  Rank_all 61: exp022 (score: 0.4400)
+  Rank_all 62: exp064 (score: 0.4299)
+  Rank_all 64: exp054 (score: 0.4281)
+  Rank_all 65: exp072 (score: 0.4266)
+  Rank_all 66: exp096 (score: 0.4265)
+  Rank_all 67: exp086 (score: 0.4264)
+  Rank_all 68: exp029 (score: 0.4250)
+  Rank_all 69: exp071 (score: 0.4249)
+  Rank_all 70: exp076 (score: 0.4233)
+  Rank_all 71: exp092 (score: 0.4232)
+  Rank_all 71: exp063 (score: 0.4232)
+  Rank_all 73: exp075 (score: 0.4216)
+  Rank_all 74: exp095 (score: 0.4199)
+  Rank_all 75: exp058 (score: 0.4198)
+  Rank_all 76: exp021 (score: 0.4184)
+  Rank_all 77: exp053 (score: 0.4183)
+  Rank_all 78: exp091 (score: 0.4166)
+  Rank_all 79: exp070 (score: 0.4150)
+  Rank_all 81: exp074 (score: 0.4117)
+  Rank_all 82: exp085 (score: 0.4115)
+  Rank_all 83: exp057 (score: 0.4084)
+  Rank_all 83: exp080 (score: 0.4084)
+  Rank_all 85: exp079 (score: 0.4050)
+  Rank_all 86: exp062 (score: 0.4033)
+  Rank_all 87: exp069 (score: 0.4001)
+  Rank_all 88: exp094 (score: 0.3982)
+  Rank_all 89: exp073 (score: 0.3951)
+  Rank_all 90: exp078 (score: 0.3918)
+  Rank_all 91: exp061 (score: 0.3900)
+  Rank_all 92: exp090 (score: 0.3899)
+  Rank_all 94: exp093 (score: 0.3800)
+  Rank_all 95: exp077 (score: 0.3736)
+  Rank_all 96: exp089 (score: 0.3701)
+
+======================================================================

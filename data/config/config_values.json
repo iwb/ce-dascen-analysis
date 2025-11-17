@@ -1,0 +1,172 @@
+{
+  "description": "Values configuration for calculations and visualizations (NOT used for ranking/AHP)",
+  "note": "Special values (REVENUE, COSTS_FIX, COSTS_VAR, PROFIT) are always calculated and available. VAL-numbered values are use-case specific supporting calculations.",
+  "special_values": [
+    {
+      "value_name": "REVENUE",
+      "description": "Component revenue based on production output",
+      "value_type": "process",
+      "calculation_level": "component",
+      "target_dataframe": "df_process",
+      "formula": "IND05",
+      "unit": "EUR",
+      "category": "aggregate",
+      "value_variables": {
+        "IND05": {
+          "source": "dataframe",
+          "column": "IND05"
+        }
+      }
+    },
+    {
+      "value_name": "COSTS_FIX",
+      "description": "Fixed costs per component (fixed cost per hour)",
+      "value_type": "process",
+      "calculation_level": "component",
+      "target_dataframe": "df_process",
+      "formula": "VAL02",
+      "unit": "EUR",
+      "category": "aggregate",
+      "value_variables": {
+        "VAL02": {
+          "source": "dataframe",
+          "column": "VAL02"
+        }
+      }
+    },
+    {
+      "value_name": "COSTS_VAR",
+      "description": "Variable costs per component (labor + electricity)",
+      "value_type": "process",
+      "calculation_level": "component",
+      "target_dataframe": "df_process",
+      "formula": "VAL01 + VAL03",
+      "unit": "EUR",
+      "category": "aggregate",
+      "value_variables": {
+        "VAL01": {
+          "source": "dataframe",
+          "column": "VAL01"
+        },
+        "VAL03": {
+          "source": "dataframe",
+          "column": "VAL03"
+        }
+      }
+    },
+    {
+      "value_name": "PROFIT",
+      "description": "Component profit (REVENUE - COSTS_FIX - COSTS_VAR)",
+      "value_type": "process",
+      "calculation_level": "component",
+      "target_dataframe": "df_process",
+      "formula": "REVENUE - COSTS_FIX - COSTS_VAR",
+      "unit": "EUR",
+      "category": "aggregate",
+      "value_variables": {
+        "REVENUE": {
+          "source": "dataframe",
+          "column": "REVENUE"
+        },
+        "COSTS_FIX": {
+          "source": "dataframe",
+          "column": "COSTS_FIX"
+        },
+        "COSTS_VAR": {
+          "source": "dataframe",
+          "column": "COSTS_VAR"
+        }
+      }
+    }
+  ],
+  "values": [
+    {
+      "value_id": "VAL01",
+      "value_name": "labor_cost",
+      "description": "Labor cost in EUR per component (process_duration/60 * labor_rate)",
+      "value_type": "process",
+      "calculation_level": "component",
+      "target_dataframe": "df_process",
+      "formula": "process_duration/60 * labor_rate",
+      "unit": "EUR",
+      "category": "cost_factor",
+      "value_variables": {
+        "process_duration": {
+          "source": "dataframe",
+          "column": "process_duration"
+        },
+        "labor_rate": {
+          "source": "attribute_file",
+          "file": "attributes_process.json",
+          "lookup_columns": ["system", "station_id"],
+          "value_path": "cost_rates.running.labor_rate"
+        }
+      }
+    },
+    {
+      "value_id": "VAL02",
+      "value_name": "fixed_cost",
+      "description": "Fixed cost in EUR per component (process_duration/60 * fixed_cost_per_hour)",
+      "value_type": "process",
+      "calculation_level": "component",
+      "target_dataframe": "df_process",
+      "formula": "process_duration/60 * fixed_cost_per_hour",
+      "unit": "EUR",
+      "category": "cost_factor",
+      "value_variables": {
+        "process_duration": {
+          "source": "dataframe",
+          "column": "process_duration"
+        },
+        "fixed_cost_per_hour": {
+          "source": "attribute_file",
+          "file": "attributes_process.json",
+          "lookup_columns": ["system", "station_id"],
+          "value_path": "fixed_cost_per_hour"
+        }
+      }
+    },
+    {
+      "value_id": "VAL03",
+      "value_name": "electricity_cost",
+      "description": "Electricity cost in EUR per component (IND01 * energy_rate)",
+      "value_type": "process",
+      "calculation_level": "component",
+      "target_dataframe": "df_process",
+      "formula": "IND01 * energy_rate",
+      "unit": "EUR",
+      "category": "cost_factor",
+      "value_variables": {
+        "IND01": {
+          "source": "dataframe",
+          "column": "IND01"
+        },
+        "energy_rate": {
+          "source": "attribute_file",
+          "file": "attributes_systems.json",
+          "lookup_columns": ["system"],
+          "value_path": "energy_rate"
+        }
+      }
+    },
+    {
+      "value_id": "VAL04",
+      "value_name": "system_baseline_cost",
+      "description": "Fixed system-level baseline cost (system-wide fixed costs)",
+      "value_type": "system",
+      "calculation_level": "experiment",
+      "target_dataframe": "df_system",
+      "formula": "system_fixed_cost",
+      "unit": "EUR",
+      "category": "cost_factor",
+      "value_variables": {
+        "system_fixed_cost": {
+          "source": "attribute_file",
+          "file": "attributes_systems.json",
+          "lookup_columns": ["system"],
+          "value_path": "system_fixed_cost"
+        }
+      }
+    }
+  ]
+}

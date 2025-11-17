@@ -1,0 +1,361 @@
+{
+  "groups": [
+    {
+      "group_id": "G01",
+      "group_name": "By System",
+      "description": "Compare performance across factory systems",
+      "group_type": "single",
+      "indicator_analysis": {
+        "process_indicators": [
+          "IND01",
+          "IND03",
+          "IND05",
+          "IND06"
+        ],
+        "product_indicators": [
+          "IND04"
+        ],
+        "resource_indicators": [
+          "IND02"
+        ],
+        "statistics": [
+          "mean",
+          "std",
+          "min",
+          "max",
+          "mean_normalized"
+        ]
+      },
+      "grouping_variables": [
+        {
+          "variable_name": "system",
+          "variable_type": "doe_table",
+          "file": "doe_full_factorial_experiments.csv",
+          "column": "system"
+        }
+      ],
+      "levels": [
+        "system_01",
+        "system_02",
+        "system_03",
+        "system_05"
+      ]
+    },
+    {
+      "group_id": "G02",
+      "group_name": "By Variability (Product Mix)",
+      "description": "Compare performance across product portfolio variability",
+      "group_type": "single",
+      "indicator_analysis": {
+        "process_indicators": [
+          "IND01",
+          "IND03",
+          "IND05",
+          "IND06"
+        ],
+        "product_indicators": [
+          "IND04"
+        ],
+        "resource_indicators": [
+          "IND02"
+        ],
+        "statistics": [
+          "mean",
+          "std",
+          "min",
+          "max",
+          "mean_normalized"
+        ]
+      },
+      "grouping_variables": [
+        {
+          "variable_name": "product_mix",
+          "variable_type": "doe_table",
+          "file": "doe_full_factorial_experiments.csv",
+          "column": "product_mix"
+        }
+      ],
+      "levels": [
+        "hd",
+        "balanced",
+        "front",
+        "rear",
+        "mixed",
+        "sa_rd"
+      ]
+    },
+    {
+      "group_id": "G03",
+      "group_name": "By Automation Degree",
+      "description": "Compare performance across automation degrees",
+      "group_type": "single",
+      "indicator_analysis": {
+        "process_indicators": [
+          "IND01",
+          "IND03",
+          "IND05",
+          "IND06"
+        ],
+        "product_indicators": [
+          "IND04"
+        ],
+        "resource_indicators": [
+          "IND02"
+        ],
+        "statistics": [
+          "mean",
+          "std",
+          "min",
+          "max"
+        ]
+      },
+      "grouping_variables": [
+        {
+          "variable_name": "automation_degree",
+          "variable_type": "doe_table",
+          "file": "doe_full_factorial_experiments.csv",
+          "column": "automation_degree"
+        }
+      ],
+      "levels": [
+        {
+          "label": "manual",
+          "min": 0.0,
+          "max": 0.0
+        },
+        {
+          "label": "low",
+          "min": 0.01,
+          "max": 0.33
+        },
+        {
+          "label": "medium",
+          "min": 0.34,
+          "max": 0.66
+        },
+        {
+          "label": "high",
+          "min": 0.67,
+          "max": 1.0
+        }
+      ]
+    },
+    {
+      "group_id": "G05",
+      "group_name": "By Division Type",
+      "description": "Compare performance across division strategies",
+      "group_type": "single",
+      "indicator_analysis": {
+        "process_indicators": [
+          "IND01",
+          "IND03",
+          "IND05",
+          "IND06"
+        ],
+        "product_indicators": [
+          "IND04"
+        ],
+        "resource_indicators": [
+          "IND02"
+        ],
+        "statistics": [
+          "mean",
+          "std",
+          "min",
+          "max",
+          "mean_normalized"
+        ]
+      },
+      "grouping_variables": [
+        {
+          "variable_name": "division_type",
+          "variable_type": "doe_table",
+          "file": "doe_full_factorial_experiments.csv",
+          "column": "division_type"
+        }
+      ],
+      "levels": [
+        "labor",
+        "quantity"
+      ]
+    },
+    {
+      "group_id": "G06",
+      "group_name": "By Number of Stations",
+      "description": "Compare performance across different numbers of workstations",
+      "group_type": "single",
+      "indicator_analysis": {
+        "process_indicators": [
+          "IND01",
+          "IND03",
+          "IND05",
+          "IND06"
+        ],
+        "product_indicators": [
+          "IND04"
+        ],
+        "resource_indicators": [
+          "IND02"
+        ],
+        "statistics": [
+          "mean",
+          "std",
+          "min",
+          "max",
+          "mean_normalized"
+        ]
+      },
+      "grouping_variables": [
+        {
+          "variable_name": "num_stations",
+          "variable_type": "doe_table",
+          "file": "doe_full_factorial_experiments.csv",
+          "column": "num_stations"
+        }
+      ],
+      "levels": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "group_id": "G11",
+      "group_name": "Product_Mix_x_System",
+      "description": "Interaction analysis: product variability vs system configuration",
+      "group_type": "interaction",
+      "indicator_analysis": {
+        "process_indicators": [
+          "IND01",
+          "IND03",
+          "IND05",
+          "IND06"
+        ],
+        "product_indicators": [
+          "IND04"
+        ],
+        "resource_indicators": [
+          "IND02"
+        ],
+        "experiment_metrics": [
+          "rank",
+          "rank_all",
+          "total_weighted_score",
+          "economic_score",
+          "environmental_score"
+        ],
+        "statistics": [
+          "mean",
+          "std",
+          "min",
+          "max"
+        ]
+      },
+      "grouping_variables": [
+        {
+          "variable_name": "product_mix",
+          "variable_type": "doe_table",
+          "file": "doe_full_factorial_experiments.csv",
+          "column": "product_mix"
+        },
+        {
+          "variable_name": "system",
+          "variable_type": "doe_table",
+          "file": "doe_full_factorial_experiments.csv",
+          "column": "system"
+        }
+      ],
+      "levels": [
+        "hd_system_01",
+        "hd_system_02",
+        "hd_system_03",
+        "hd_system_05",
+        "balanced_system_01",
+        "balanced_system_02",
+        "balanced_system_03",
+        "balanced_system_05",
+        "front_system_01",
+        "front_system_02",
+        "front_system_03",
+        "front_system_05",
+        "rear_system_01",
+        "rear_system_02",
+        "rear_system_03",
+        "rear_system_05",
+        "mixed_system_01",
+        "mixed_system_02",
+        "mixed_system_03",
+        "mixed_system_05",
+        "sa_rd_system_01",
+        "sa_rd_system_02",
+        "sa_rd_system_03",
+        "sa_rd_system_05"
+      ]
+    },
+    {
+      "group_id": "G12",
+      "group_name": "System_Type_x_Automation_x_Stations",
+      "description": "Three-way interaction: system type \u00c3\u2014 automation level \u00c3\u2014 number of stations",
+      "group_type": "interaction",
+      "indicator_analysis": {
+        "process_indicators": [
+          "IND01",
+          "IND03",
+          "IND05",
+          "IND06"
+        ],
+        "product_indicators": [
+          "IND04"
+        ],
+        "resource_indicators": [
+          "IND02"
+        ],
+        "statistics": [
+          "mean",
+          "std",
+          "min",
+          "max",
+          "mean_normalized"
+        ]
+      },
+      "grouping_variables": [
+        {
+          "variable_name": "system_type",
+          "variable_type": "doe_table",
+          "file": "doe_full_factorial_experiments.csv",
+          "column": "system_type"
+        },
+        {
+          "variable_name": "automation_level",
+          "variable_type": "doe_table",
+          "file": "doe_full_factorial_experiments.csv",
+          "column": "automation_level"
+        },
+        {
+          "variable_name": "num_stations",
+          "variable_type": "doe_table",
+          "file": "doe_full_factorial_experiments.csv",
+          "column": "num_stations"
+        }
+      ],
+      "levels": [
+        "line_a00_3",
+        "line_a00_5",
+        "line_a02_3",
+        "line_a02_5",
+        "line_a04_3",
+        "line_a04_5",
+        "line_a06_3",
+        "line_a06_5",
+        "workshop_a00_4",
+        "workshop_a00_5",
+        "workshop_a02_4",
+        "workshop_a02_5",
+        "workshop_a04_4",
+        "workshop_a04_5",
+        "workshop_a06_4",
+        "workshop_a06_5"
+      ]
+    }
+  ]
+}

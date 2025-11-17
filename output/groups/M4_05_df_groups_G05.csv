@@ -1,0 +1,13 @@
+group_id,group_name,group_level,dataframe,indicator_id,mean,std,min,max,n_observations,n_experiments,system,product_mix,automation_degree,division_type,num_stations,system_type,automation_level,mean_normalized
+G05,By Division Type,labor,df_process,IND01,0.09,0.1,0.0,3.93,20850.0,48,,,,labor,,,,0.53
+G05,By Division Type,labor,df_resource,IND02,28.63,19.82,1.95,85.95,184.0,48,,,,labor,,,,0.34
+G05,By Division Type,labor,df_process,IND03,11.67,13.67,0.11,518.98,20850.0,48,,,,labor,,,,0.51
+G05,By Division Type,labor,df_product,IND04,858.47,1086.02,144.0,7404.0,1920.0,48,,,,labor,,,,0.18
+G05,By Division Type,labor,df_process,IND05,1977.36,1652.69,0.0,9565.0,20850.0,48,,,,labor,,,,0.47
+G05,By Division Type,labor,df_process,IND06,73.97,86.39,0.0,336.0,20850.0,48,,,,labor,,,,0.53
+G05,By Division Type,quantity,df_process,IND01,0.09,0.05,0.0,0.2,21000.0,48,,,,quantity,,,,0.44
+G05,By Division Type,quantity,df_resource,IND02,23.83,8.93,8.45,46.0,216.0,48,,,,quantity,,,,0.22
+G05,By Division Type,quantity,df_process,IND03,11.32,6.88,0.11,25.85,21000.0,48,,,,quantity,,,,0.43
+G05,By Division Type,quantity,df_product,IND04,312.38,96.68,144.0,645.0,1920.0,48,,,,quantity,,,,0.01
+G05,By Division Type,quantity,df_process,IND05,1971.57,1650.89,0.0,9565.0,21000.0,48,,,,quantity,,,,0.44
+G05,By Division Type,quantity,df_process,IND06,73.75,86.29,0.0,336.0,21000.0,48,,,,quantity,,,,0.51

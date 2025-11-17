@@ -1,0 +1,18 @@
+{
+  "description": "Configuration for disassembly depth analysis (Module 5). Defines how component-level data is aggregated and analyzed across disassembly sequences.",
+  "version": "1.0",
+  "component_aggregation": {
+    "description": "Defines which columns to aggregate when calculating component-level statistics",
+    "count_columns": [
+      "component_name"
+    ],
+    "sum_columns": [
+      "IND01",
+      "IND06",
+      "PROFIT",
+      "REVENUE",
+      "COSTS_FIX",
+      "COSTS_VAR"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "experiment_id": "exp082",
+  "description": "Experiment 082",
+  "output_prefix": "exp082_s01_sa_rd_a02",
+  "simulation": {
+    "weeks": 1,
+    "runs": 1,
+    "start_date": "2025-01-01T00:00:00"
+  },
+  "factory_structure": {
+    "file": "system_01.json",
+    "distance_matrix": "distance_matrix_system_01.csv"
+  },
+  "products": [
+    {
+      "file": "car_hd_a02.json",
+      "enabled": true
+    },
+    {
+      "file": "car_tl_a02.json",
+      "enabled": true
+    },
+    {
+      "file": "car_sa_a02.json",
+      "enabled": true
+    },
+    {
+      "file": "car_rd_a02.json",
+      "enabled": true
+    }
+  ],
+  "product_delivery": {
+    "mode": "scheduled",
+    "schedule_file": "sch_sa_rd_a02.json"
+  },
+  "overrides": {
+    "behavior_mode": "deterministic",
+    "material_flow": {
+      "flow_mode": "pull"
+    }
+  }
+}

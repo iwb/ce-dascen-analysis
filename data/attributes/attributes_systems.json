@@ -1,0 +1,34 @@
+{
+  "description": "System-level attributes. Note: total_available_time should be calculated dynamically from event log (max_timestamp - min_timestamp per experiment), NOT hardcoded here.",
+  "systems": [
+    {
+      "system": "system_01",
+      "energy_rate": 0.4,
+      "energy_rate_unit": "EUR/kWh",
+      "system_fixed_cost": 0,
+      "system_fixed_cost_unit": "EUR"
+    },
+    {
+      "system": "system_02",
+      "energy_rate": 0.4,
+      "energy_rate_unit": "EUR/kWh",
+      "system_fixed_cost": 0,
+      "system_fixed_cost_unit": "EUR"
+    },
+    {
+      "system": "system_03",
+      "energy_rate": 0.4,
+      "energy_rate_unit": "EUR/kWh",
+      "system_fixed_cost": 0,
+      "system_fixed_cost_unit": "EUR"
+    },
+    {
+      "system": "system_05",
+      "energy_rate": 0.4,
+      "energy_rate_unit": "EUR/kWh",
+      "system_fixed_cost": 0,
+      "system_fixed_cost_unit": "EUR"
+    }
+  ],
+  "note": "For IND02 (utilization_rate), total_available_time must be calculated dynamically per experiment from the event log using: max(timestamp) - min(timestamp) across all events. This represents the actual simulation runtime."
+}

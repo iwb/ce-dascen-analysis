@@ -1,0 +1,62 @@
+{
+  "description": "Centralized mappings configuration for the disassembly decision framework. Contains mappings that were previously hardcoded in module logic.",
+  "version": "1.0",
+  "automation_levels": {
+    "description": "Mapping from automation level codes (from DoE table) to numeric degrees [0-1]",
+    "mapping": {
+      "a00": 0.0,
+      "a02": 0.25,
+      "a04": 0.5,
+      "a06": 0.75
+    }
+  },
+  "product_mix_types": {
+    "description": "Mapping from product mix codes (from DoE table) to product type keys in attributes_disassembly_paths.json",
+    "mapping": {
+      "hd": "car_hd",
+      "balanced": "car_hd",
+      "front": "car_hd",
+      "rear": "car_sa",
+      "mixed": "car_hd",
+      "sa_rd": "car_sa"
+    }
+  },
+  "attribute_structure": {
+    "description": "Mapping from attribute file types to their nested structure keys in JSON files",
+    "mapping": {
+      "process": "stations",
+      "systems": "systems",
+      "product": "components"
+    }
+  },
+  "product_types": {
+    "description": "Configuration for all product types in the system",
+    "available": ["car_hd", "car_tl", "car_sa", "car_rd"],
+    "reference": "car_hd",
+    "reference_note": "The reference product is used as the master product for step extraction (assumed to have all possible disassembly steps)",
+    "labels": {
+      "car_hd": "HD",
+      "car_tl": "TL",
+      "car_sa": "SA",
+      "car_rd": "RD"
+    },
+    "colors": {
+      "car_hd": {
+        "colormap": "tab10",
+        "index": 0
+      },
+      "car_tl": {
+        "colormap": "tab10",
+        "index": 1
+      },
+      "car_sa": {
+        "colormap": "tab10",
+        "index": 2
+      },
+      "car_rd": {
+        "colormap": "tab10",
+        "index": 3
+      }
+    }
+  }
+}

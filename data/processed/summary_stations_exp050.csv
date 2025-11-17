@@ -1,0 +1,4 @@
+exp_id,system,product_mix,automation_level,station_id,runtime_minutes,waiting_time_minutes,closed_time_minutes,total_simulation_time_minutes,factory_open_time_minutes,utilization_rate_running,utilization_rate_waiting,utilization_rate_closed
+exp050,system_01,rear,a02,ws-03_S1toS4,1376,2824,5880,10080,4200,13.65,28.02,58.33
+exp050,system_01,rear,a02,ws-04_S5S7,416,3784,5880,10080,4200,4.13,37.54,58.33
+exp050,system_01,rear,a02,ws-05_S6S8,2466,1734,5880,10080,4200,24.46,17.2,58.33

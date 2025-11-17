@@ -1,0 +1,582 @@
+{
+  "version": "4.0",
+  "description": "DoE Full Factorial Design - 96 Experiments",
+  "experiments": [
+    {
+      "id": "exp001",
+      "description": "Experiment 001",
+      "config_file": "exp001.json",
+      "tags": ["doe", "factorial", "scenario_01", "hd", "a00"]
+    },
+    {
+      "id": "exp002",
+      "description": "Experiment 002",
+      "config_file": "exp002.json",
+      "tags": ["doe", "factorial", "scenario_01", "hd", "a02"]
+    },
+    {
+      "id": "exp003",
+      "description": "Experiment 003",
+      "config_file": "exp003.json",
+      "tags": ["doe", "factorial", "scenario_01", "hd", "a04"]
+    },
+    {
+      "id": "exp004",
+      "description": "Experiment 004",
+      "config_file": "exp004.json",
+      "tags": ["doe", "factorial", "scenario_01", "hd", "a06"]
+    },
+    {
+      "id": "exp005",
+      "description": "Experiment 005",
+      "config_file": "exp005.json",
+      "tags": ["doe", "factorial", "scenario_01", "balanced", "a00"]
+    },
+    {
+      "id": "exp006",
+      "description": "Experiment 006",
+      "config_file": "exp006.json",
+      "tags": ["doe", "factorial", "scenario_01", "balanced", "a02"]
+    },
+    {
+      "id": "exp007",
+      "description": "Experiment 007",
+      "config_file": "exp007.json",
+      "tags": ["doe", "factorial", "scenario_01", "balanced", "a04"]
+    },
+    {
+      "id": "exp008",
+      "description": "Experiment 008",
+      "config_file": "exp008.json",
+      "tags": ["doe", "factorial", "scenario_01", "balanced", "a06"]
+    },
+    {
+      "id": "exp009",
+      "description": "Experiment 009",
+      "config_file": "exp009.json",
+      "tags": ["doe", "factorial", "scenario_02", "hd", "a00"]
+    },
+    {
+      "id": "exp010",
+      "description": "Experiment 010",
+      "config_file": "exp010.json",
+      "tags": ["doe", "factorial", "scenario_02", "hd", "a02"]
+    },
+    {
+      "id": "exp011",
+      "description": "Experiment 011",
+      "config_file": "exp011.json",
+      "tags": ["doe", "factorial", "scenario_02", "hd", "a04"]
+    },
+    {
+      "id": "exp012",
+      "description": "Experiment 012",
+      "config_file": "exp012.json",
+      "tags": ["doe", "factorial", "scenario_02", "hd", "a06"]
+    },
+    {
+      "id": "exp013",
+      "description": "Experiment 013",
+      "config_file": "exp013.json",
+      "tags": ["doe", "factorial", "scenario_02", "balanced", "a00"]
+    },
+    {
+      "id": "exp014",
+      "description": "Experiment 014",
+      "config_file": "exp014.json",
+      "tags": ["doe", "factorial", "scenario_02", "balanced", "a02"]
+    },
+    {
+      "id": "exp015",
+      "description": "Experiment 015",
+      "config_file": "exp015.json",
+      "tags": ["doe", "factorial", "scenario_02", "balanced", "a04"]
+    },
+    {
+      "id": "exp016",
+      "description": "Experiment 016",
+      "config_file": "exp016.json",
+      "tags": ["doe", "factorial", "scenario_02", "balanced", "a06"]
+    },
+    {
+      "id": "exp017",
+      "description": "Experiment 017",
+      "config_file": "exp017.json",
+      "tags": ["doe", "factorial", "scenario_03", "hd", "a00"]
+    },
+    {
+      "id": "exp018",
+      "description": "Experiment 018",
+      "config_file": "exp018.json",
+      "tags": ["doe", "factorial", "scenario_03", "hd", "a02"]
+    },
+    {
+      "id": "exp019",
+      "description": "Experiment 019",
+      "config_file": "exp019.json",
+      "tags": ["doe", "factorial", "scenario_03", "hd", "a04"]
+    },
+    {
+      "id": "exp020",
+      "description": "Experiment 020",
+      "config_file": "exp020.json",
+      "tags": ["doe", "factorial", "scenario_03", "hd", "a06"]
+    },
+    {
+      "id": "exp021",
+      "description": "Experiment 021",
+      "config_file": "exp021.json",
+      "tags": ["doe", "factorial", "scenario_03", "balanced", "a00"]
+    },
+    {
+      "id": "exp022",
+      "description": "Experiment 022",
+      "config_file": "exp022.json",
+      "tags": ["doe", "factorial", "scenario_03", "balanced", "a02"]
+    },
+    {
+      "id": "exp023",
+      "description": "Experiment 023",
+      "config_file": "exp023.json",
+      "tags": ["doe", "factorial", "scenario_03", "balanced", "a04"]
+    },
+    {
+      "id": "exp024",
+      "description": "Experiment 024",
+      "config_file": "exp024.json",
+      "tags": ["doe", "factorial", "scenario_03", "balanced", "a06"]
+    },
+    {
+      "id": "exp025",
+      "description": "Experiment 025",
+      "config_file": "exp025.json",
+      "tags": ["doe", "factorial", "scenario_05", "hd", "a00"]
+    },
+    {
+      "id": "exp026",
+      "description": "Experiment 026",
+      "config_file": "exp026.json",
+      "tags": ["doe", "factorial", "scenario_05", "hd", "a02"]
+    },
+    {
+      "id": "exp027",
+      "description": "Experiment 027",
+      "config_file": "exp027.json",
+      "tags": ["doe", "factorial", "scenario_05", "hd", "a04"]
+    },
+    {
+      "id": "exp028",
+      "description": "Experiment 028",
+      "config_file": "exp028.json",
+      "tags": ["doe", "factorial", "scenario_05", "hd", "a06"]
+    },
+    {
+      "id": "exp029",
+      "description": "Experiment 029",
+      "config_file": "exp029.json",
+      "tags": ["doe", "factorial", "scenario_05", "balanced", "a00"]
+    },
+    {
+      "id": "exp030",
+      "description": "Experiment 030",
+      "config_file": "exp030.json",
+      "tags": ["doe", "factorial", "scenario_05", "balanced", "a02"]
+    },
+    {
+      "id": "exp031",
+      "description": "Experiment 031",
+      "config_file": "exp031.json",
+      "tags": ["doe", "factorial", "scenario_05", "balanced", "a04"]
+    },
+    {
+      "id": "exp032",
+      "description": "Experiment 032",
+      "config_file": "exp032.json",
+      "tags": ["doe", "factorial", "scenario_05", "balanced", "a06"]
+    },
+    {
+      "id": "exp033",
+      "description": "Experiment 033",
+      "config_file": "exp033.json",
+      "tags": ["doe", "factorial", "scenario_01", "front", "a00"]
+    },
+    {
+      "id": "exp034",
+      "description": "Experiment 034",
+      "config_file": "exp034.json",
+      "tags": ["doe", "factorial", "scenario_01", "front", "a02"]
+    },
+    {
+      "id": "exp035",
+      "description": "Experiment 035",
+      "config_file": "exp035.json",
+      "tags": ["doe", "factorial", "scenario_01", "front", "a04"]
+    },
+    {
+      "id": "exp036",
+      "description": "Experiment 036",
+      "config_file": "exp036.json",
+      "tags": ["doe", "factorial", "scenario_01", "front", "a06"]
+    },
+    {
+      "id": "exp037",
+      "description": "Experiment 037",
+      "config_file": "exp037.json",
+      "tags": ["doe", "factorial", "scenario_02", "front", "a00"]
+    },
+    {
+      "id": "exp038",
+      "description": "Experiment 038",
+      "config_file": "exp038.json",
+      "tags": ["doe", "factorial", "scenario_02", "front", "a02"]
+    },
+    {
+      "id": "exp039",
+      "description": "Experiment 039",
+      "config_file": "exp039.json",
+      "tags": ["doe", "factorial", "scenario_02", "front", "a04"]
+    },
+    {
+      "id": "exp040",
+      "description": "Experiment 040",
+      "config_file": "exp040.json",
+      "tags": ["doe", "factorial", "scenario_02", "front", "a06"]
+    },
+    {
+      "id": "exp041",
+      "description": "Experiment 041",
+      "config_file": "exp041.json",
+      "tags": ["doe", "factorial", "scenario_03", "front", "a00"]
+    },
+    {
+      "id": "exp042",
+      "description": "Experiment 042",
+      "config_file": "exp042.json",
+      "tags": ["doe", "factorial", "scenario_03", "front", "a02"]
+    },
+    {
+      "id": "exp043",
+      "description": "Experiment 043",
+      "config_file": "exp043.json",
+      "tags": ["doe", "factorial", "scenario_03", "front", "a04"]
+    },
+    {
+      "id": "exp044",
+      "description": "Experiment 044",
+      "config_file": "exp044.json",
+      "tags": ["doe", "factorial", "scenario_03", "front", "a06"]
+    },
+    {
+      "id": "exp045",
+      "description": "Experiment 045",
+      "config_file": "exp045.json",
+      "tags": ["doe", "factorial", "scenario_05", "front", "a00"]
+    },
+    {
+      "id": "exp046",
+      "description": "Experiment 046",
+      "config_file": "exp046.json",
+      "tags": ["doe", "factorial", "scenario_05", "front", "a02"]
+    },
+    {
+      "id": "exp047",
+      "description": "Experiment 047",
+      "config_file": "exp047.json",
+      "tags": ["doe", "factorial", "scenario_05", "front", "a04"]
+    },
+    {
+      "id": "exp048",
+      "description": "Experiment 048",
+      "config_file": "exp048.json",
+      "tags": ["doe", "factorial", "scenario_05", "front", "a06"]
+    },
+    {
+      "id": "exp049",
+      "description": "Experiment 049",
+      "config_file": "exp049.json",
+      "tags": ["doe", "factorial", "scenario_01", "rear", "a00"]
+    },
+    {
+      "id": "exp050",
+      "description": "Experiment 050",
+      "config_file": "exp050.json",
+      "tags": ["doe", "factorial", "scenario_01", "rear", "a02"]
+    },
+    {
+      "id": "exp051",
+      "description": "Experiment 051",
+      "config_file": "exp051.json",
+      "tags": ["doe", "factorial", "scenario_01", "rear", "a04"]
+    },
+    {
+      "id": "exp052",
+      "description": "Experiment 052",
+      "config_file": "exp052.json",
+      "tags": ["doe", "factorial", "scenario_01", "rear", "a06"]
+    },
+    {
+      "id": "exp053",
+      "description": "Experiment 053",
+      "config_file": "exp053.json",
+      "tags": ["doe", "factorial", "scenario_02", "rear", "a00"]
+    },
+    {
+      "id": "exp054",
+      "description": "Experiment 054",
+      "config_file": "exp054.json",
+      "tags": ["doe", "factorial", "scenario_02", "rear", "a02"]
+    },
+    {
+      "id": "exp055",
+      "description": "Experiment 055",
+      "config_file": "exp055.json",
+      "tags": ["doe", "factorial", "scenario_02", "rear", "a04"]
+    },
+    {
+      "id": "exp056",
+      "description": "Experiment 056",
+      "config_file": "exp056.json",
+      "tags": ["doe", "factorial", "scenario_02", "rear", "a06"]
+    },
+    {
+      "id": "exp057",
+      "description": "Experiment 057",
+      "config_file": "exp057.json",
+      "tags": ["doe", "factorial", "scenario_03", "rear", "a00"]
+    },
+    {
+      "id": "exp058",
+      "description": "Experiment 058",
+      "config_file": "exp058.json",
+      "tags": ["doe", "factorial", "scenario_03", "rear", "a02"]
+    },
+    {
+      "id": "exp059",
+      "description": "Experiment 059",
+      "config_file": "exp059.json",
+      "tags": ["doe", "factorial", "scenario_03", "rear", "a04"]
+    },
+    {
+      "id": "exp060",
+      "description": "Experiment 060",
+      "config_file": "exp060.json",
+      "tags": ["doe", "factorial", "scenario_03", "rear", "a06"]
+    },
+    {
+      "id": "exp061",
+      "description": "Experiment 061",
+      "config_file": "exp061.json",
+      "tags": ["doe", "factorial", "scenario_05", "rear", "a00"]
+    },
+    {
+      "id": "exp062",
+      "description": "Experiment 062",
+      "config_file": "exp062.json",
+      "tags": ["doe", "factorial", "scenario_05", "rear", "a02"]
+    },
+    {
+      "id": "exp063",
+      "description": "Experiment 063",
+      "config_file": "exp063.json",
+      "tags": ["doe", "factorial", "scenario_05", "rear", "a04"]
+    },
+    {
+      "id": "exp064",
+      "description": "Experiment 064",
+      "config_file": "exp064.json",
+      "tags": ["doe", "factorial", "scenario_05", "rear", "a06"]
+    },
+    {
+      "id": "exp065",
+      "description": "Experiment 065",
+      "config_file": "exp065.json",
+      "tags": ["doe", "factorial", "scenario_01", "mixed", "a00"]
+    },
+    {
+      "id": "exp066",
+      "description": "Experiment 066",
+      "config_file": "exp066.json",
+      "tags": ["doe", "factorial", "scenario_01", "mixed", "a02"]
+    },
+    {
+      "id": "exp067",
+      "description": "Experiment 067",
+      "config_file": "exp067.json",
+      "tags": ["doe", "factorial", "scenario_01", "mixed", "a04"]
+    },
+    {
+      "id": "exp068",
+      "description": "Experiment 068",
+      "config_file": "exp068.json",
+      "tags": ["doe", "factorial", "scenario_01", "mixed", "a06"]
+    },
+    {
+      "id": "exp069",
+      "description": "Experiment 069",
+      "config_file": "exp069.json",
+      "tags": ["doe", "factorial", "scenario_02", "mixed", "a00"]
+    },
+    {
+      "id": "exp070",
+      "description": "Experiment 070",
+      "config_file": "exp070.json",
+      "tags": ["doe", "factorial", "scenario_02", "mixed", "a02"]
+    },
+    {
+      "id": "exp071",
+      "description": "Experiment 071",
+      "config_file": "exp071.json",
+      "tags": ["doe", "factorial", "scenario_02", "mixed", "a04"]
+    },
+    {
+      "id": "exp072",
+      "description": "Experiment 072",
+      "config_file": "exp072.json",
+      "tags": ["doe", "factorial", "scenario_02", "mixed", "a06"]
+    },
+    {
+      "id": "exp073",
+      "description": "Experiment 073",
+      "config_file": "exp073.json",
+      "tags": ["doe", "factorial", "scenario_03", "mixed", "a00"]
+    },
+    {
+      "id": "exp074",
+      "description": "Experiment 074",
+      "config_file": "exp074.json",
+      "tags": ["doe", "factorial", "scenario_03", "mixed", "a02"]
+    },
+    {
+      "id": "exp075",
+      "description": "Experiment 075",
+      "config_file": "exp075.json",
+      "tags": ["doe", "factorial", "scenario_03", "mixed", "a04"]
+    },
+    {
+      "id": "exp076",
+      "description": "Experiment 076",
+      "config_file": "exp076.json",
+      "tags": ["doe", "factorial", "scenario_03", "mixed", "a06"]
+    },
+    {
+      "id": "exp077",
+      "description": "Experiment 077",
+      "config_file": "exp077.json",
+      "tags": ["doe", "factorial", "scenario_05", "mixed", "a00"]
+    },
+    {
+      "id": "exp078",
+      "description": "Experiment 078",
+      "config_file": "exp078.json",
+      "tags": ["doe", "factorial", "scenario_05", "mixed", "a02"]
+    },
+    {
+      "id": "exp079",
+      "description": "Experiment 079",
+      "config_file": "exp079.json",
+      "tags": ["doe", "factorial", "scenario_05", "mixed", "a04"]
+    },
+    {
+      "id": "exp080",
+      "description": "Experiment 080",
+      "config_file": "exp080.json",
+      "tags": ["doe", "factorial", "scenario_05", "mixed", "a06"]
+    },
+    {
+      "id": "exp081",
+      "description": "Experiment 081",
+      "config_file": "exp081.json",
+      "tags": ["doe", "factorial", "scenario_01", "sa_rd", "a00"]
+    },
+    {
+      "id": "exp082",
+      "description": "Experiment 082",
+      "config_file": "exp082.json",
+      "tags": ["doe", "factorial", "scenario_01", "sa_rd", "a02"]
+    },
+    {
+      "id": "exp083",
+      "description": "Experiment 083",
+      "config_file": "exp083.json",
+      "tags": ["doe", "factorial", "scenario_01", "sa_rd", "a04"]
+    },
+    {
+      "id": "exp084",
+      "description": "Experiment 084",
+      "config_file": "exp084.json",
+      "tags": ["doe", "factorial", "scenario_01", "sa_rd", "a06"]
+    },
+    {
+      "id": "exp085",
+      "description": "Experiment 085",
+      "config_file": "exp085.json",
+      "tags": ["doe", "factorial", "scenario_02", "sa_rd", "a00"]
+    },
+    {
+      "id": "exp086",
+      "description": "Experiment 086",
+      "config_file": "exp086.json",
+      "tags": ["doe", "factorial", "scenario_02", "sa_rd", "a02"]
+    },
+    {
+      "id": "exp087",
+      "description": "Experiment 087",
+      "config_file": "exp087.json",
+      "tags": ["doe", "factorial", "scenario_02", "sa_rd", "a04"]
+    },
+    {
+      "id": "exp088",
+      "description": "Experiment 088",
+      "config_file": "exp088.json",
+      "tags": ["doe", "factorial", "scenario_02", "sa_rd", "a06"]
+    },
+    {
+      "id": "exp089",
+      "description": "Experiment 089",
+      "config_file": "exp089.json",
+      "tags": ["doe", "factorial", "scenario_03", "sa_rd", "a00"]
+    },
+    {
+      "id": "exp090",
+      "description": "Experiment 090",
+      "config_file": "exp090.json",
+      "tags": ["doe", "factorial", "scenario_03", "sa_rd", "a02"]
+    },
+    {
+      "id": "exp091",
+      "description": "Experiment 091",
+      "config_file": "exp091.json",
+      "tags": ["doe", "factorial", "scenario_03", "sa_rd", "a04"]
+    },
+    {
+      "id": "exp092",
+      "description": "Experiment 092",
+      "config_file": "exp092.json",
+      "tags": ["doe", "factorial", "scenario_03", "sa_rd", "a06"]
+    },
+    {
+      "id": "exp093",
+      "description": "Experiment 093",
+      "config_file": "exp093.json",
+      "tags": ["doe", "factorial", "scenario_05", "sa_rd", "a00"]
+    },
+    {
+      "id": "exp094",
+      "description": "Experiment 094",
+      "config_file": "exp094.json",
+      "tags": ["doe", "factorial", "scenario_05", "sa_rd", "a02"]
+    },
+    {
+      "id": "exp095",
+      "description": "Experiment 095",
+      "config_file": "exp095.json",
+      "tags": ["doe", "factorial", "scenario_05", "sa_rd", "a04"]
+    },
+    {
+      "id": "exp096",
+      "description": "Experiment 096",
+      "config_file": "exp096.json",
+      "tags": ["doe", "factorial", "scenario_05", "sa_rd", "a06"]
+    }
+  ]
+}
