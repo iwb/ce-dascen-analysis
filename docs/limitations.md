@@ -9,6 +9,7 @@ This document outlines the known limitations and assumptions of the developed pr
 - [2. Technical Limitations](#2-technical-limitations)
 - [3. Assumptions](#3-assumptions)
 - [4. Known Issues](#4-known-issues)
+- [5. Code Quality & Architecture](#5-code-quality--architecture)
 
 <br>
 
@@ -148,3 +149,36 @@ The framework has been validated with the following experimental setup:
 - Display formatting: Specific rounding, color schemes, and plot dimensions
 
 **Note:** Adapting the framework to different domains requires reviewing these conventions. Product types can be configured via [`config_mappings.json`](../data/config/config_mappings.json).
+
+---
+
+<br>
+
+## 5. Code Quality & Architecture
+
+The following items document known deviations from clean code practices and potential structural improvements.
+
+**Project structure:**
+- The `modules` folder should be renamed to `ce-dascen-analysis` to clarify that it contains source code
+- The main script should be moved to a `scripts` folder to indicate that it is user-executable code
+- The `config` folder should be promoted to a top-level folder for easier user access
+- The `output` folder should be a subfolder of `scripts` to indicate that it contains user-generated data
+- The `data` and `experiment_data` folders should be merged or better separated (their distinction is currently unclear)
+- The `preprocessing` folder should be renamed to `data_transformation` to better reflect its purpose
+
+**Function organization:**
+- The main functions in each module file are currently placed at the bottom of the file; following clean code paradigms, these should be moved to the top
+- Helper functions in the `moduleX_*.py` files should be prepended with an underscore to indicate that they are not intended for external use
+- Functions should be condensed in size to fit on one screen height (~40 lines) to improve readability
+
+**Error handling:**
+- Many functions in the modules return the original dataframe when an issue occurs, which can lead to silent errors if the user does not check the output
+- Exceptions should be raised instead to make errors more visible
+
+**Data flow clarity:**
+- The transformations of the dataframe within modules are not always transparent
+- Using a dataclass with multiple dataframes as arguments would make the required inputs and resulting outputs more explicit
+
+**Logging:**
+- The framework currently uses `print()` statements for console output
+- A logging framework should be used instead to allow better control over verbosity
